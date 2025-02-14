@@ -3,15 +3,16 @@
   "sourceLanguageTag": "en",
   "languageTags": [
     "en",
-    "bn",
     "ar",
+    "bn",
     "es",
     "fr",
     "hi",
     "id",
     "pt",
     "th",
-    "vi"
+    "vi",
+    "zh-CN"
   ],
   "modules": [
     "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@4/dist/index.js",
