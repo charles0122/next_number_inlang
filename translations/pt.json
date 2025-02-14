@@ -1,4 +1,26 @@
 {
   "appName": "NextNumber",
-  "defaultUsername": "Meu"
+  "defaultUsername": "Meu",
+  "store": {
+    "benefit1Title": "Oferta gratuita de $ 18",
+    "benefit1Desc": "valor de minutos de chamadas grátis",
+    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit2Title": "Menor preço para SMS de saída",
+    "benefit2Desc": "US$ 0,012 para EUA e Canadá",
+    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit3Title": "Alterar número a qualquer momento",
+    "benefit3Desc": "Cancelar a qualquer momento",
+    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "creditPacksTitle": "Pacotes de crédito",
+    "creditPacksDesc": "os pontos de recarga só terão efeito após a compra de um número de telefone",
+    "selectNumberTitle": "Selecione um número",
+    "selectNumberDesc": "obtenha um novo número para manter sua vida segura e privada",
+    "emptyNumbersData": "Dados numéricos vazios.",
+    "emptySubscriptionsData": "Dados de assinaturas vazios",
+    "occurError": "Ocorreu um erro, tente novamente",
+    "tip1": "Clique para comprar. O pagamento será cobrado na sua conta do iTunes. Para gerenciar sua assinatura de forma independente, desabilite a renovação automática pelo menos 24 horas antes do fim do período de cobrança atual. A taxa de renovação será cobrada automaticamente na mesma taxa e prazo dentro de 24 horas da conclusão do período. Após fazer sua compra, você pode gerenciar suas configurações de assinatura a qualquer momento por meio das Configurações da conta para controle total."
+  },
+  "dialogs": {
+    "bindNumberTip": "Vincular número de telefone"
+  }
 }

@@ -1,4 +1,26 @@
 {
   "appName": "NextNumber",
-  "defaultUsername": "Tôi"
+  "defaultUsername": "Tôi",
+  "store": {
+    "benefit1Title": "Tặng miễn phí 18$",
+    "benefit1Desc": "giá trị của phút gọi miễn phí",
+    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit2Title": "Giá tin nhắn SMS gửi đi thấp nhất",
+    "benefit2Desc": "0,012 đô la đến Hoa Kỳ và Canada",
+    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit3Title": "Thay đổi số bất cứ lúc nào",
+    "benefit3Desc": "Hủy bỏ bất cứ lúc nào",
+    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "creditPacksTitle": "Gói tín dụng",
+    "creditPacksDesc": "điểm nạp tiền chỉ có hiệu lực sau khi mua số điện thoại",
+    "selectNumberTitle": "Chọn một số",
+    "selectNumberDesc": "nhận một số mới để giữ cuộc sống của bạn an toàn và riêng tư",
+    "emptyNumbersData": "Dữ liệu số rỗng.",
+    "emptySubscriptionsData": "Dữ liệu đăng ký trống",
+    "occurError": "Xảy ra lỗi, vui lòng thử lại",
+    "tip1": "Nhấp để Mua. Thanh toán sẽ được tính vào tài khoản iTunes của bạn. Để quản lý đăng ký của bạn một cách độc lập, vui lòng tắt tính năng tự động gia hạn ít nhất 24 giờ trước khi kết thúc kỳ thanh toán hiện tại. Phí gia hạn sẽ được tự động tính theo cùng mức giá và thời hạn trong vòng 24 giờ sau khi kết thúc kỳ thanh toán. Sau khi mua hàng, bạn có thể quản lý cài đặt đăng ký của mình bất kỳ lúc nào thông qua Cài đặt tài khoản để kiểm soát hoàn toàn."
+  },
+  "dialogs": {
+    "bindNumberTip": "Liên kết số điện thoại"
+  }
 }

@@ -1,4 +1,26 @@
 {
   "appName": "NextNumber",
-  "defaultUsername": "أنا"
+  "defaultUsername": "أنا",
+  "store": {
+    "benefit1Title": "عرض مجاني بقيمة 18 دولارًا",
+    "benefit1Desc": "قيمة دقائق المكالمات المجانية",
+    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit2Title": "أقل سعر للرسائل النصية القصيرة الصادرة",
+    "benefit2Desc": "0.012 إلى الولايات المتحدة وكندا",
+    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit3Title": "تغيير الرقم في أي وقت",
+    "benefit3Desc": "إلغاء في أي وقت",
+    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "creditPacksTitle": "حزم الائتمان",
+    "creditPacksDesc": "لن يتم تفعيل نقاط الشحن إلا بعد شراء رقم هاتف",
+    "selectNumberTitle": "حدد رقما",
+    "selectNumberDesc": "احصل على رقم جديد للحفاظ على حياتك آمنة وخصوصية",
+    "emptyNumbersData": "بيانات أرقام فارغة.",
+    "emptySubscriptionsData": "بيانات الاشتراكات فارغة",
+    "occurError": "حدث خطأ، يرجى المحاولة مرة أخرى",
+    "tip1": "انقر للشراء. سيتم تحصيل الدفع من حساب iTunes الخاص بك. لإدارة اشتراكك بشكل مستقل، يرجى تعطيل التجديد التلقائي قبل 24 ساعة على الأقل من نهاية فترة الفوترة الحالية. سيتم تحصيل رسوم التجديد تلقائيًا بنفس السعر والمدة في غضون 24 ساعة من انتهاء الفترة. بعد إجراء عملية الشراء، يمكنك إدارة إعدادات اشتراكك في أي وقت من خلال إعدادات الحساب للتحكم الكامل."
+  },
+  "dialogs": {
+    "bindNumberTip": "ربط رقم الهاتف"
+  }
 }

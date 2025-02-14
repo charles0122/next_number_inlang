@@ -1,4 +1,26 @@
 {
   "appName": "NextNumber",
-  "defaultUsername": "Aku"
+  "defaultUsername": "Aku",
+  "store": {
+    "benefit1Title": "Tawarkan $18 secara gratis",
+    "benefit1Desc": "Nilai Menit Panggilan Gratis",
+    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit2Title": "Harga SMS keluar terendah",
+    "benefit2Desc": "$0,012 ke AS &amp; Kanada",
+    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit3Title": "Ganti nomor kapan saja",
+    "benefit3Desc": "Batalkan Kapan Saja",
+    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "creditPacksTitle": "Paket Kredit",
+    "creditPacksDesc": "poin isi ulang hanya akan berlaku setelah membeli nomor telepon",
+    "selectNumberTitle": "Pilih nomor",
+    "selectNumberDesc": "dapatkan nomor baru untuk menjaga kehidupan Anda tetap aman dan pribadi",
+    "emptyNumbersData": "Data angka kosong.",
+    "emptySubscriptionsData": "Data langganan kosong",
+    "occurError": "Terjadi kesalahan, Silakan coba lagi",
+    "tip1": "Klik untuk Membeli. Pembayaran akan dibebankan ke akun iTunes Anda. Untuk mengelola langganan Anda secara mandiri, harap nonaktifkan perpanjangan otomatis setidaknya 24 jam sebelum akhir periode penagihan saat ini. Biaya perpanjangan akan secara otomatis dibebankan pada tarif dan jangka waktu yang sama dalam waktu 24 jam setelah periode berakhir. Setelah melakukan pembelian, Anda dapat mengelola pengaturan langganan Anda kapan saja melalui Pengaturan Akun untuk kontrol penuh."
+  },
+  "dialogs": {
+    "bindNumberTip": "Ikat nomor telepon"
+  }
 }

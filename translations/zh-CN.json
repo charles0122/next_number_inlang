@@ -1,4 +1,26 @@
 {
   "appName": "NextNumber",
-  "defaultUsername": "我的"
+  "defaultUsername": "我的",
+  "store": {
+    "benefit1Title": "免费提供 18 美元",
+    "benefit1Desc": "免费通话分钟数",
+    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit2Title": "最低短信发送价格",
+    "benefit2Desc": "0.012 美元至美国和加拿大",
+    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit3Title": "随时更换号码",
+    "benefit3Desc": "随时取消",
+    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "creditPacksTitle": "信用包",
+    "creditPacksDesc": "充值点数需在购买电话号码后才有效",
+    "selectNumberTitle": "选择一个号码",
+    "selectNumberDesc": "获取新号码以确保您的生活安全和隐私",
+    "emptyNumbersData": "空数字数据。",
+    "emptySubscriptionsData": "订阅数据为空",
+    "occurError": "发生错误，请重试",
+    "tip1": "点击购买。付款将从您的 iTunes 帐户中扣除。要独立管理您的订阅，请在当前计费期结束前至少 24 小时禁用自动续订。续订费用将在该期限结束后 24 小时内按相同费率和期限自动收取。购买后，您可以随时通过帐户设置管理您的订阅设置，实现完全控制。"
+  },
+  "dialogs": {
+    "bindNumberTip": "绑定手机号"
+  }
 }

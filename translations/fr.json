@@ -1,4 +1,26 @@
 {
   "appName": "NextNumber",
-  "defaultUsername": "Moi"
+  "defaultUsername": "Moi",
+  "store": {
+    "benefit1Title": "Offrez gratuitement 18 $",
+    "benefit1Desc": "valeur de minutes d'appel gratuites",
+    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit2Title": "Prix SMS sortant le plus bas",
+    "benefit2Desc": "0,012 $ aux États-Unis et au Canada",
+    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit3Title": "Changer de numéro à tout moment",
+    "benefit3Desc": "Annuler à tout moment",
+    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "creditPacksTitle": "Packs de crédits",
+    "creditPacksDesc": "les points de recharge ne prendront effet qu'après l'achat d'un numéro de téléphone",
+    "selectNumberTitle": "Sélectionnez un numéro",
+    "selectNumberDesc": "obtenez un nouveau numéro pour garder votre vie en sécurité et privée",
+    "emptyNumbersData": "Données numériques vides.",
+    "emptySubscriptionsData": "Données d'abonnement vides",
+    "occurError": "Une erreur s'est produite, veuillez réessayer",
+    "tip1": "Cliquez pour acheter. Le paiement sera débité de votre compte iTunes. Pour gérer votre abonnement de manière indépendante, veuillez désactiver le renouvellement automatique au moins 24 heures avant la fin de la période de facturation en cours. Les frais de renouvellement seront automatiquement facturés au même tarif et pour la même durée dans les 24 heures suivant la fin de la période. Après avoir effectué votre achat, vous pouvez gérer vos paramètres d'abonnement à tout moment via les paramètres du compte pour un contrôle total."
+  },
+  "dialogs": {
+    "bindNumberTip": "Lier un numéro de téléphone"
+  }
 }

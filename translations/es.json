@@ -1,4 +1,26 @@
 {
   "appName": "NextNumber",
-  "defaultUsername": "A mí"
+  "defaultUsername": "A mí",
+  "store": {
+    "benefit1Title": "Ofrezca gratuitamente $18",
+    "benefit1Desc": "Valor en minutos de llamadas gratis",
+    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit2Title": "Precio más bajo de SMS salientes",
+    "benefit2Desc": "$0,012 a EE. UU. y Canadá",
+    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit3Title": "Cambie el número en cualquier momento",
+    "benefit3Desc": "Cancelar en cualquier momento",
+    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "creditPacksTitle": "Paquetes de créditos",
+    "creditPacksDesc": "Los puntos de recarga solo tendrán efecto después de comprar un número de teléfono.",
+    "selectNumberTitle": "Seleccione un número",
+    "selectNumberDesc": "Obtenga un nuevo número para mantener su vida segura y privada",
+    "emptyNumbersData": "Datos de números vacíos.",
+    "emptySubscriptionsData": "Datos de suscripciones vacíos",
+    "occurError": "Ocurrió un error, por favor intente nuevamente",
+    "tip1": "Haga clic para comprar. El pago se cargará a su cuenta de iTunes. Para gestionar su suscripción de forma independiente, desactive la renovación automática al menos 24 horas antes de que finalice el período de facturación actual. La tarifa de renovación se cobrará automáticamente a la misma tarifa y plazo dentro de las 24 horas posteriores a la finalización del período. Después de realizar su compra, puede gestionar la configuración de su suscripción en cualquier momento a través de Configuración de la cuenta para tener un control total."
+  },
+  "dialogs": {
+    "bindNumberTip": "Vincular número de teléfono"
+  }
 }
