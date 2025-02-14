@@ -1,9 +1,5 @@
 {
   "$schema": "https://inlang.com/schema/project-settings",
-  "sourceLanguageTag": "en",
-  "languageTags": [
-    "en"
-  ],
   "modules": [
     "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@4/dist/index.js",
     "https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-empty-pattern@1/dist/index.js",
@@ -16,5 +12,18 @@
     "variableReferencePattern": [
       "@:"
     ]
-  }
+  },
+  "baseLocale": "en",
+  "locales": [
+    "en",
+    "bn",
+    "ar",
+    "es",
+    "fr",
+    "hi",
+    "id",
+    "pt",
+    "th",
+    "vi"
+  ]
 }
