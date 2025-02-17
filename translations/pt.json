@@ -21,6 +21,7 @@
     "tip1": "Clique para comprar. O pagamento será cobrado na sua conta do iTunes. Para gerenciar sua assinatura de forma independente, desabilite a renovação automática pelo menos 24 horas antes do fim do período de cobrança atual. A taxa de renovação será cobrada automaticamente na mesma taxa e prazo dentro de 24 horas da conclusão do período. Após fazer sua compra, você pode gerenciar suas configurações de assinatura a qualquer momento por meio das Configurações da conta para controle total."
   },
   "dialogs": {
-    "bindNumberTip": "Vincular número de telefone"
+    "bindNumberTip": "Vincular número de telefone",
+    "bindNumberDesc": "número de ligação de teste desc"
   }
 }

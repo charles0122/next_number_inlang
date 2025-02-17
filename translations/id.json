@@ -21,6 +21,7 @@
     "tip1": "Klik untuk Membeli. Pembayaran akan dibebankan ke akun iTunes Anda. Untuk mengelola langganan Anda secara mandiri, harap nonaktifkan perpanjangan otomatis setidaknya 24 jam sebelum akhir periode penagihan saat ini. Biaya perpanjangan akan secara otomatis dibebankan pada tarif dan jangka waktu yang sama dalam waktu 24 jam setelah periode berakhir. Setelah melakukan pembelian, Anda dapat mengelola pengaturan langganan Anda kapan saja melalui Pengaturan Akun untuk kontrol penuh."
   },
   "dialogs": {
-    "bindNumberTip": "Ikat nomor telepon"
+    "bindNumberTip": "Ikat nomor telepon",
+    "bindNumberDesc": "uji nomor ikatan desc"
   }
 }

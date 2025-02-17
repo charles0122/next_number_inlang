@@ -21,6 +21,7 @@
     "tip1": "Click to Purchase.Payment will be charged to your iTunes account.To manage your subscription independently, please disable auto-renewal at least 24 hours before the end of the current billing period. The renewal fee will be automatically charged at the same rate and term within 24 hours of the period's conclusion. After making your purchase, you can manage your subscription settings at any time through Account Settings for full control."
   },
   "dialogs": {
-    "bindNumberTip": "Bind phone number"
+    "bindNumberTip": "Bind phone number",
+    "bindNumberDesc": "test bind number desc"
   }
 }

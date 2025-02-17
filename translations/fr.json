@@ -21,6 +21,7 @@
     "tip1": "Cliquez pour acheter. Le paiement sera débité de votre compte iTunes. Pour gérer votre abonnement de manière indépendante, veuillez désactiver le renouvellement automatique au moins 24 heures avant la fin de la période de facturation en cours. Les frais de renouvellement seront automatiquement facturés au même tarif et pour la même durée dans les 24 heures suivant la fin de la période. Après avoir effectué votre achat, vous pouvez gérer vos paramètres d'abonnement à tout moment via les paramètres du compte pour un contrôle total."
   },
   "dialogs": {
-    "bindNumberTip": "Lier un numéro de téléphone"
+    "bindNumberTip": "Lier un numéro de téléphone",
+    "bindNumberDesc": "numéro de liaison de test desc"
   }
 }

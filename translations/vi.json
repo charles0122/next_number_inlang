@@ -21,6 +21,7 @@
     "tip1": "Nhấp để Mua. Thanh toán sẽ được tính vào tài khoản iTunes của bạn. Để quản lý đăng ký của bạn một cách độc lập, vui lòng tắt tính năng tự động gia hạn ít nhất 24 giờ trước khi kết thúc kỳ thanh toán hiện tại. Phí gia hạn sẽ được tự động tính theo cùng mức giá và thời hạn trong vòng 24 giờ sau khi kết thúc kỳ thanh toán. Sau khi mua hàng, bạn có thể quản lý cài đặt đăng ký của mình bất kỳ lúc nào thông qua Cài đặt tài khoản để kiểm soát hoàn toàn."
   },
   "dialogs": {
-    "bindNumberTip": "Liên kết số điện thoại"
+    "bindNumberTip": "Liên kết số điện thoại",
+    "bindNumberDesc": "kiểm tra số ràng buộc mô tả"
   }
 }
