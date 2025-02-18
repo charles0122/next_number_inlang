@@ -18,7 +18,8 @@
     "emptyNumbersData": "Dados numéricos vazios.",
     "emptySubscriptionsData": "Dados de assinaturas vazios",
     "occurError": "Ocorreu um erro, tente novamente",
-    "tip1": "Clique para comprar. O pagamento será cobrado na sua conta do iTunes. Para gerenciar sua assinatura de forma independente, desabilite a renovação automática pelo menos 24 horas antes do fim do período de cobrança atual. A taxa de renovação será cobrada automaticamente na mesma taxa e prazo dentro de 24 horas da conclusão do período. Após fazer sua compra, você pode gerenciar suas configurações de assinatura a qualquer momento por meio das Configurações da conta para controle total."
+    "tip1": "Clique para comprar. O pagamento será cobrado na sua conta do iTunes. Para gerenciar sua assinatura de forma independente, desabilite a renovação automática pelo menos 24 horas antes do fim do período de cobrança atual. A taxa de renovação será cobrada automaticamente na mesma taxa e prazo dentro de 24 horas da conclusão do período. Após fazer sua compra, você pode gerenciar suas configurações de assinatura a qualquer momento por meio das Configurações da conta para controle total.",
+    "tip2": "\"Pontas:\n1. O número não pode ser usado para receber códigos de verificação.\n2. Para proteger sua privacidade, o destinatário não pode ver seu número.\n3. Chamadas com duração inferior a 1 minuto custarão 1 minuto."
   },
   "dialogs": {
     "bindNumberTip": "Vincular número de telefone",

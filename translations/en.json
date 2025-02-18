@@ -18,7 +18,8 @@
     "emptyNumbersData": "Empty numbers data.",
     "emptySubscriptionsData": "Empty subscriptions data",
     "occurError": "Occur error, Please try again",
-    "tip1": "Click to Purchase.Payment will be charged to your iTunes account.To manage your subscription independently, please disable auto-renewal at least 24 hours before the end of the current billing period. The renewal fee will be automatically charged at the same rate and term within 24 hours of the period's conclusion. After making your purchase, you can manage your subscription settings at any time through Account Settings for full control."
+    "tip1": "Click to Purchase.Payment will be charged to your iTunes account.To manage your subscription independently, please disable auto-renewal at least 24 hours before the end of the current billing period. The renewal fee will be automatically charged at the same rate and term within 24 hours of the period's conclusion. After making your purchase, you can manage your subscription settings at any time through Account Settings for full control.",
+    "tip2": "Tips:\n1. The number cannot be used to receive verification codes. \n2. To protect your privacy, the callee cannot see your number. \n3. Calls lasting less than 1 minute will cost as 1 minute."
   },
   "dialogs": {
     "bindNumberTip": "Bind phone number",

@@ -54,3 +54,9 @@ fvm flutter pub run easy_localization:generate -S inlang/translations -f keys -O
 链接 https://fink.inlang.com/github.com/charles0122/next_number_inlang?project=%2Fproject.inlang&lang=en&lang=ar&lang=bn&lang=es&lang=fr&lang=hi&lang=id&lang=pt&lang=th&lang=vi&lang=zh-CN
 
 5. （开发）拉取更新后的翻译仓库
+
+### 新增语言步骤
+1 在translations目录下新增一个符合文件命名标准的json文件 (它需要是有效的 BCP-47 语言标签)
+比如 zh-Hans.json
+
+2 （可选）运行机器翻译

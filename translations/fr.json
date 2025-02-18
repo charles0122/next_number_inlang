@@ -18,7 +18,8 @@
     "emptyNumbersData": "Données numériques vides.",
     "emptySubscriptionsData": "Données d'abonnement vides",
     "occurError": "Une erreur s'est produite, veuillez réessayer",
-    "tip1": "Cliquez pour acheter. Le paiement sera débité de votre compte iTunes. Pour gérer votre abonnement de manière indépendante, veuillez désactiver le renouvellement automatique au moins 24 heures avant la fin de la période de facturation en cours. Les frais de renouvellement seront automatiquement facturés au même tarif et pour la même durée dans les 24 heures suivant la fin de la période. Après avoir effectué votre achat, vous pouvez gérer vos paramètres d'abonnement à tout moment via les paramètres du compte pour un contrôle total."
+    "tip1": "Cliquez pour acheter. Le paiement sera débité de votre compte iTunes. Pour gérer votre abonnement de manière indépendante, veuillez désactiver le renouvellement automatique au moins 24 heures avant la fin de la période de facturation en cours. Les frais de renouvellement seront automatiquement facturés au même tarif et pour la même durée dans les 24 heures suivant la fin de la période. Après avoir effectué votre achat, vous pouvez gérer vos paramètres d'abonnement à tout moment via les paramètres du compte pour un contrôle total.",
+    "tip2": "\"Conseils:\n1. Le numéro ne peut pas être utilisé pour recevoir des codes de vérification.\n2. Pour protéger votre vie privée, l'appelé ne peut pas voir votre numéro.\n3. Les appels d'une durée inférieure à 1 minute coûteront 1 minute."
   },
   "dialogs": {
     "bindNumberTip": "Lier un numéro de téléphone",
