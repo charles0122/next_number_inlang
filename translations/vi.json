@@ -85,7 +85,9 @@
     "contact": "Liên hệ",
     "contactHint": "Vui lòng nhập email của bạn",
     "invalidEmail": "Vui lòng nhập email hợp lệ",
-    "emailSupport": "Chúng tôi sẽ gửi phản hồi đến địa chỉ email này theo địa chỉ @:devSupportEmail  . Hãy đảm bảo rằng bạn có thể nhận được tin nhắn qua email này."
+    "emailSupport": "Chúng tôi sẽ gửi phản hồi đến địa chỉ email này theo địa chỉ @:devSupportEmail  . Hãy đảm bảo rằng bạn có thể nhận được tin nhắn qua email này.",
+    "issueDetailsLengthTip": "Nhập ít nhất 10 ký tự cho mô tả của bạn",
+    "feedbackSuccess": "Cảm ơn phản hồi của bạn!"
   },
   "buttons": {
     "submit": "Nộp",
@@ -93,10 +95,12 @@
     "confirm": "Xác nhận",
     "cancel": "Hủy bỏ",
     "logOut": "Đăng xuất",
-    "login": "Đăng nhập"
+    "login": "Đăng nhập",
+    "ok": "ĐƯỢC RỒI"
   },
   "datetime": {
     "currentYear": "{currentYear}",
     "currentDate": "{currentDate}"
-  }
+  },
+  "networkNotOk": "Vui lòng kiểm tra mạng và thử lại."
 }

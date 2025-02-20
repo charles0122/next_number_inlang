@@ -3,7 +3,7 @@
   "defaultUsername": "我的",
   "supportEmail": "dev@auroinsta.com",
   "devSupportEmail": "dev@auroinsta.com",
-  "copyright": "© @:datetime .currentYear @:appName \\。保留所有权利。",
+  "copyright": "© @:datetime .currentYear @:appName 。保留所有权利。",
   "store": {
     "storeTabLabel": "店铺",
     "benefit1Title": "免费提供 18 美元",
@@ -85,7 +85,9 @@
     "contact": "联系人",
     "contactHint": "请输入您的电子邮箱",
     "invalidEmail": "请输入有效的电子邮件",
-    "emailSupport": "我们将通过@:devSupportEmail向此电子邮件地址发送回复。请确保您可以通过此电子邮件接收消息。"
+    "emailSupport": "我们将通过@:devSupportEmail向此电子邮件地址发送回复。请确保您可以通过此电子邮件接收消息。",
+    "issueDetailsLengthTip": "输入至少 10 个字符作为您的描述",
+    "feedbackSuccess": "感谢您的反馈！"
   },
   "buttons": {
     "submit": "提交",
@@ -93,10 +95,12 @@
     "confirm": "确认",
     "cancel": "取消",
     "logOut": "登出",
-    "login": "登录"
+    "login": "登录",
+    "ok": "好的"
   },
   "datetime": {
     "currentYear": "{currentYear}",
     "currentDate": "{currentDate}"
-  }
+  },
+  "networkNotOk": "请检查网络并重试。"
 }

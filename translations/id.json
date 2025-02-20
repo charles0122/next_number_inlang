@@ -85,7 +85,9 @@
     "contact": "Kontak",
     "contactHint": "Silakan masukkan email Anda",
     "invalidEmail": "Silakan masukkan email yang valid",
-    "emailSupport": "Kami akan mengirimkan respons ke alamat email ini paling lambat @:devSupportEmail .Pastikan Anda dapat menerima pesan dengan email ini."
+    "emailSupport": "Kami akan mengirimkan respons ke alamat email ini paling lambat @:devSupportEmail .Pastikan Anda dapat menerima pesan dengan email ini.",
+    "issueDetailsLengthTip": "Masukkan setidaknya 10 karakter untuk deskripsi Anda",
+    "feedbackSuccess": "Terima kasih atas masukan Anda!"
   },
   "buttons": {
     "submit": "Kirim",
@@ -93,10 +95,12 @@
     "confirm": "Mengonfirmasi",
     "cancel": "Membatalkan",
     "logOut": "Keluar",
-    "login": "Login"
+    "login": "Login",
+    "ok": "OKE"
   },
   "datetime": {
     "currentYear": "{currentYear}",
     "currentDate": "{currentDate}"
-  }
+  },
+  "networkNotOk": "Silakan periksa jaringan dan coba lagi."
 }

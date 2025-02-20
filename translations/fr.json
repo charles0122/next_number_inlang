@@ -85,7 +85,9 @@
     "contact": "Contact",
     "contactHint": "Veuillez entrer votre email",
     "invalidEmail": "Veuillez entrer une adresse e-mail valide",
-    "emailSupport": "Nous enverrons une réponse à cette adresse e-mail par @:devSupportEmail . Veuillez vous assurer que vous pouvez recevoir des messages avec cet e-mail."
+    "emailSupport": "Nous enverrons une réponse à cette adresse e-mail par @:devSupportEmail . Veuillez vous assurer que vous pouvez recevoir des messages avec cet e-mail.",
+    "issueDetailsLengthTip": "Entrez au moins 10 caractères pour votre description",
+    "feedbackSuccess": "Merci pour votre retour !"
   },
   "buttons": {
     "submit": "Soumettre",
@@ -93,10 +95,12 @@
     "confirm": "Confirmer",
     "cancel": "Annuler",
     "logOut": "Se déconnecter",
-    "login": "Se connecter"
+    "login": "Se connecter",
+    "ok": "D'ACCORD"
   },
   "datetime": {
     "currentYear": "{currentYear}",
     "currentDate": "{currentDate}"
-  }
+  },
+  "networkNotOk": "Veuillez vérifier le réseau et réessayer."
 }

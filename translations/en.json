@@ -3,7 +3,7 @@
   "defaultUsername": "Me",
   "supportEmail": "dev@auroinsta.com",
   "devSupportEmail": "dev@auroinsta.com",
-  "copyright": "© @:datetime.currentYear @:appName\\. All rights reserved.",
+  "copyright": "© @:datetime.currentYear @:appName. All rights reserved.",
   "store": {
     "storeTabLabel": "Store",
     "benefit1Title": "Freely Offer $18",
@@ -85,7 +85,9 @@
     "contact": "Contact",
     "contactHint": "Please enter your email",
     "invalidEmail": "Please enter a valid email",
-    "emailSupport": "We will send response to this email address by @:devSupportEmail .Please make sure you can receive messages with this email."
+    "emailSupport": "We will send response to this email address by @:devSupportEmail .Please make sure you can receive messages with this email.",
+    "issueDetailsLengthTip": "Enter at least 10 characters for your description",
+    "feedbackSuccess": "Thank you for your feedback!"
   },
   "buttons": {
     "submit": "Submit",
@@ -93,10 +95,12 @@
     "confirm": "Confirm",
     "cancel": "Cancel",
     "logOut": "Log Out",
-    "login": "Login"
+    "login": "Login",
+    "ok": "OK"
   },
   "datetime": {
     "currentYear": "{currentYear}",
     "currentDate": "{currentDate}"
-  }
+  },
+  "networkNotOk": "Please check the network and try again."
 }
