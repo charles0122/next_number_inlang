@@ -3,7 +3,7 @@
   "defaultUsername": "Aku",
   "supportEmail": "dev@auroinsta.com",
   "devSupportEmail": "dev@auroinsta.com",
-  "copyright": "© @:datetime .currentYear @:appName \\. Semua hak dilindungi undang-undang.",
+  "copyright": "© @:datetime .currentYear @:appName. Semua hak dilindungi undang-undang.",
   "store": {
     "storeTabLabel": "Toko",
     "benefit1Title": "Tawarkan $18 secara gratis",

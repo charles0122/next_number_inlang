@@ -3,7 +3,7 @@
   "defaultUsername": "أنا",
   "supportEmail": "dev@auroinsta.com",
   "devSupportEmail": "dev@auroinsta.com",
-  "copyright": "© @:datetime .currentYear @:appName \\. جميع الحقوق محفوظة.",
+  "copyright": "© @:datetime .currentYear @:appName. جميع الحقوق محفوظة.",
   "store": {
     "storeTabLabel": "محل",
     "benefit1Title": "عرض مجاني بقيمة 18 دولارًا",

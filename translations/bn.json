@@ -3,7 +3,7 @@
   "defaultUsername": "আমি",
   "supportEmail": "dev@auroinsta.com",
   "devSupportEmail": "dev@auroinsta.com",
-  "copyright": "© @:datetime .currentYear @:appName \\. সর্বস্বত্ব সংরক্ষিত।",
+  "copyright": "© @:datetime .currentYear @:appName. সর্বস্বত্ব সংরক্ষিত।",
   "store": {
     "storeTabLabel": "দোকান",
     "benefit1Title": "বিনামূল্যে অফার $18",

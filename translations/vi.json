@@ -3,7 +3,7 @@
   "defaultUsername": "Tôi",
   "supportEmail": "dev@auroinsta.com",
   "devSupportEmail": "dev@auroinsta.com",
-  "copyright": "© @:datetime .currentYear @:appName \\. Mọi quyền được bảo lưu.",
+  "copyright": "© @:datetime .currentYear @:appName. Mọi quyền được bảo lưu.",
   "store": {
     "storeTabLabel": "Cửa hàng",
     "benefit1Title": "Tặng miễn phí 18$",

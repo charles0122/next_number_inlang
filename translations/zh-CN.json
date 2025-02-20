@@ -3,7 +3,7 @@
   "defaultUsername": "我的",
   "supportEmail": "dev@auroinsta.com",
   "devSupportEmail": "dev@auroinsta.com",
-  "copyright": "© @:datetime .currentYear @:appName 。保留所有权利。",
+  "copyright": "© @:datetime .currentYear @:appName。保留所有权利。",
   "store": {
     "storeTabLabel": "店铺",
     "benefit1Title": "免费提供 18 美元",

@@ -3,7 +3,7 @@
   "defaultUsername": "मुझे",
   "supportEmail": "dev@auroinsta.com",
   "devSupportEmail": "dev@auroinsta.com",
-  "copyright": "© @:datetime .currentYear @:appName \\. सभी अधिकार सुरक्षित।",
+  "copyright": "© @:datetime .currentYear @:appName. सभी अधिकार सुरक्षित।",
   "store": {
     "storeTabLabel": "इकट्ठा करना",
     "benefit1Title": "मुफ़्त में $18 ऑफ़र करें",

@@ -3,7 +3,7 @@
   "defaultUsername": "ฉัน",
   "supportEmail": "dev@auroinsta.com",
   "devSupportEmail": "dev@auroinsta.com",
-  "copyright": "© @:datetime .currentYear @:appName \\. สงวนลิขสิทธิ์",
+  "copyright": "© @:datetime .currentYear @:appName. สงวนลิขสิทธิ์",
   "store": {
     "storeTabLabel": "เก็บ",
     "benefit1Title": "เสนอฟรี $18",

@@ -3,7 +3,7 @@
   "defaultUsername": "A mí",
   "supportEmail": "dev@auroinsta.com",
   "devSupportEmail": "dev@auroinsta.com",
-  "copyright": "© @:datetime .currentYear @:appName \\. Todos los derechos reservados.",
+  "copyright": "© @:datetime .currentYear @:appName. Todos los derechos reservados.",
   "store": {
     "storeTabLabel": "Almacenar",
     "benefit1Title": "Ofrezca gratuitamente $18",
