@@ -11,10 +11,10 @@
     "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "Prix SMS sortant le plus bas",
     "benefit2Desc": "0,012 $ aux États-Unis et au Canada",
-    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
+    "benefit2": "@:store.benefit2Title @.lower:store.benefit2Desc",
     "benefit3Title": "Changer de numéro à tout moment",
     "benefit3Desc": "Annuler à tout moment",
-    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
+    "benefit3": "@:store.benefit3Title @.lower:store.benefit3Desc",
     "creditPacksTitle": "Packs de crédits",
     "creditPacksDesc": "les points de recharge ne prendront effet qu'après l'achat d'un numéro de téléphone",
     "selectNumberTitle": "Sélectionnez un numéro",
@@ -23,7 +23,7 @@
     "emptySubscriptionsData": "Données d'abonnement vides",
     "occurError": "Une erreur s'est produite, veuillez réessayer",
     "tip1": "Cliquez pour acheter. Le paiement sera débité de votre compte iTunes. Pour gérer votre abonnement de manière indépendante, veuillez désactiver le renouvellement automatique au moins 24 heures avant la fin de la période de facturation en cours. Les frais de renouvellement seront automatiquement facturés au même tarif et pour la même durée dans les 24 heures suivant la fin de la période. Après avoir effectué votre achat, vous pouvez gérer vos paramètres d'abonnement à tout moment via les paramètres du compte pour un contrôle total.",
-    "tip2": "\"Conseils:\n1. Le numéro ne peut pas être utilisé pour recevoir des codes de vérification.\n2. Pour protéger votre vie privée, l'appelé ne peut pas voir votre numéro.\n3. Les appels d'une durée inférieure à 1 minute coûteront 1 minute."
+    "tip2": "Conseils:\n1. Le numéro ne peut pas être utilisé pour recevoir des codes de vérification.\n2. Pour protéger votre vie privée, l'appelé ne peut pas voir votre numéro.\n3. Les appels d'une durée inférieure à 1 minute coûteront 1 minute."
   },
   "dialogs": {
     "bindNumberTip": "Lier un numéro de téléphone",
@@ -85,7 +85,7 @@
     "contact": "Contact",
     "contactHint": "Veuillez entrer votre email",
     "invalidEmail": "Veuillez entrer une adresse e-mail valide",
-    "emailSupport": "Nous enverrons une réponse à cette adresse e-mail par @:devSupportEmail \\. Veuillez vous assurer que vous pouvez recevoir des messages avec cet e-mail."
+    "emailSupport": "Nous enverrons une réponse à cette adresse e-mail par @:devSupportEmail . Veuillez vous assurer que vous pouvez recevoir des messages avec cet e-mail."
   },
   "buttons": {
     "submit": "Soumettre",
@@ -96,7 +96,7 @@
     "login": "Se connecter"
   },
   "datetime": {
-    "currentYear": "{année en cours}",
-    "currentDate": "{date actuelle}"
+    "currentYear": "{currentYear}",
+    "currentDate": "{currentDate}"
   }
 }

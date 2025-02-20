@@ -11,10 +11,10 @@
     "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "Giá tin nhắn SMS gửi đi thấp nhất",
     "benefit2Desc": "0,012 đô la đến Hoa Kỳ và Canada",
-    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
+    "benefit2": "@:store.benefit2Title @.lower:store.benefit2Desc",
     "benefit3Title": "Thay đổi số bất cứ lúc nào",
     "benefit3Desc": "Hủy bỏ bất cứ lúc nào",
-    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
+    "benefit3": "@:store.benefit3Title @.lower:store.benefit3Desc",
     "creditPacksTitle": "Gói tín dụng",
     "creditPacksDesc": "điểm nạp tiền chỉ có hiệu lực sau khi mua số điện thoại",
     "selectNumberTitle": "Chọn một số",
@@ -23,7 +23,7 @@
     "emptySubscriptionsData": "Dữ liệu đăng ký trống",
     "occurError": "Xảy ra lỗi, vui lòng thử lại",
     "tip1": "Nhấp để Mua. Thanh toán sẽ được tính vào tài khoản iTunes của bạn. Để quản lý đăng ký của bạn một cách độc lập, vui lòng tắt tính năng tự động gia hạn ít nhất 24 giờ trước khi kết thúc kỳ thanh toán hiện tại. Phí gia hạn sẽ được tự động tính theo cùng mức giá và thời hạn trong vòng 24 giờ sau khi kết thúc kỳ thanh toán. Sau khi mua hàng, bạn có thể quản lý cài đặt đăng ký của mình bất kỳ lúc nào thông qua Cài đặt tài khoản để kiểm soát hoàn toàn.",
-    "tip2": "\"Mẹo:\n1. Không thể sử dụng số này để nhận mã xác minh.\n2. Để bảo vệ quyền riêng tư của bạn, người nhận cuộc gọi không thể nhìn thấy số của bạn.\n3. Cuộc gọi có thời lượng dưới 1 phút sẽ tính phí là 1 phút."
+    "tip2": "Mẹo:\n1. Không thể sử dụng số này để nhận mã xác minh.\n2. Để bảo vệ quyền riêng tư của bạn, người nhận cuộc gọi không thể nhìn thấy số của bạn.\n3. Cuộc gọi có thời lượng dưới 1 phút sẽ tính phí là 1 phút."
   },
   "dialogs": {
     "bindNumberTip": "Liên kết số điện thoại",
@@ -85,7 +85,7 @@
     "contact": "Liên hệ",
     "contactHint": "Vui lòng nhập email của bạn",
     "invalidEmail": "Vui lòng nhập email hợp lệ",
-    "emailSupport": "Chúng tôi sẽ gửi phản hồi đến địa chỉ email này theo địa chỉ @:devSupportEmail \\. Hãy đảm bảo rằng bạn có thể nhận được tin nhắn qua email này."
+    "emailSupport": "Chúng tôi sẽ gửi phản hồi đến địa chỉ email này theo địa chỉ @:devSupportEmail  . Hãy đảm bảo rằng bạn có thể nhận được tin nhắn qua email này."
   },
   "buttons": {
     "submit": "Nộp",
@@ -96,7 +96,7 @@
     "login": "Đăng nhập"
   },
   "datetime": {
-    "currentYear": "{năm hiện tại}",
-    "currentDate": "{ngày hiện tại}"
+    "currentYear": "{currentYear}",
+    "currentDate": "{currentDate}"
   }
 }

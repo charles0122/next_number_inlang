@@ -11,10 +11,10 @@
     "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "ราคา SMS ขาออกต่ำสุด",
     "benefit2Desc": "0.012 ดอลลาร์สหรัฐฯ และแคนาดา",
-    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
+    "benefit2": "@:store.benefit2Title @.lower:store.benefit2Desc",
     "benefit3Title": "เปลี่ยนเบอร์ได้ตลอดเวลา",
     "benefit3Desc": "ยกเลิกได้ตลอดเวลา",
-    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
+    "benefit3": "@:store.benefit3Title @.lower:store.benefit3Desc",
     "creditPacksTitle": "แพ็คเครดิต",
     "creditPacksDesc": "คะแนนชาร์จจะมีผลหลังจากซื้อหมายเลขโทรศัพท์เท่านั้น",
     "selectNumberTitle": "เลือกหมายเลข",
@@ -85,7 +85,7 @@
     "contact": "ติดต่อ",
     "contactHint": "กรุณากรอกอีเมล์ของคุณ",
     "invalidEmail": "กรุณากรอกอีเมล์ที่ถูกต้อง",
-    "emailSupport": "เราจะส่งการตอบกลับไปยังที่อยู่อีเมลนี้โดย @:devSupportEmail \\ โปรดตรวจสอบให้แน่ใจว่าคุณสามารถรับข้อความผ่านอีเมลนี้ได้"
+    "emailSupport": "เราจะส่งการตอบกลับไปยังที่อยู่อีเมลนี้โดย @:devSupportEmail  โปรดตรวจสอบให้แน่ใจว่าคุณสามารถรับข้อความผ่านอีเมลนี้ได้"
   },
   "buttons": {
     "submit": "ส่ง",
@@ -96,7 +96,7 @@
     "login": "เข้าสู่ระบบ"
   },
   "datetime": {
-    "currentYear": "{ปีปัจจุบัน}",
-    "currentDate": "วันที่ปัจจุบัน"
+    "currentYear": "{currentYear}",
+    "currentDate": "{currentDate}"
   }
 }

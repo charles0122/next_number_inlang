@@ -1,8 +1,8 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "أنا",
-  "supportEmail": "المطور@auroinsta.com",
-  "devSupportEmail": "المطور@auroinsta.com",
+  "supportEmail": "dev@auroinsta.com",
+  "devSupportEmail": "dev@auroinsta.com",
   "copyright": "© @:datetime .currentYear @:appName \\. جميع الحقوق محفوظة.",
   "store": {
     "storeTabLabel": "محل",
@@ -11,10 +11,10 @@
     "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "أقل سعر للرسائل النصية القصيرة الصادرة",
     "benefit2Desc": "0.012 إلى الولايات المتحدة وكندا",
-    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
+    "benefit2": "@:store.benefit2Title @.lower:store.benefit2Desc",
     "benefit3Title": "تغيير الرقم في أي وقت",
     "benefit3Desc": "إلغاء في أي وقت",
-    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
+    "benefit3": "@:store.benefit3Title @.lower:store.benefit3Desc",
     "creditPacksTitle": "حزم الائتمان",
     "creditPacksDesc": "لن يتم تفعيل نقاط الشحن إلا بعد شراء رقم هاتف",
     "selectNumberTitle": "حدد رقما",
@@ -23,7 +23,7 @@
     "emptySubscriptionsData": "بيانات الاشتراكات فارغة",
     "occurError": "حدث خطأ، يرجى المحاولة مرة أخرى",
     "tip1": "انقر للشراء. سيتم تحصيل الدفع من حساب iTunes الخاص بك. لإدارة اشتراكك بشكل مستقل، يرجى تعطيل التجديد التلقائي قبل 24 ساعة على الأقل من نهاية فترة الفوترة الحالية. سيتم تحصيل رسوم التجديد تلقائيًا بنفس السعر والمدة في غضون 24 ساعة من انتهاء الفترة. بعد إجراء عملية الشراء، يمكنك إدارة إعدادات اشتراكك في أي وقت من خلال إعدادات الحساب للتحكم الكامل.",
-    "tip2": "\"نصائح:\n1. لا يمكن استخدام الرقم لتلقي رموز التحقق.\n2. لحماية خصوصيتك، لا يمكن للمتصل رؤية رقمك.\n3. سيتم احتساب تكلفة المكالمات التي تستغرق أقل من دقيقة واحدة بواقع دقيقة واحدة."
+    "tip2": "نصائح:\n1. لا يمكن استخدام الرقم لتلقي رموز التحقق.\n2. لحماية خصوصيتك، لا يمكن للمتصل رؤية رقمك.\n3. سيتم احتساب تكلفة المكالمات التي تستغرق أقل من دقيقة واحدة بواقع دقيقة واحدة."
   },
   "dialogs": {
     "bindNumberTip": "ربط رقم الهاتف",
@@ -85,7 +85,7 @@
     "contact": "اتصال",
     "contactHint": "الرجاء إدخال بريدك الإلكتروني",
     "invalidEmail": "الرجاء إدخال بريد إلكتروني صالح",
-    "emailSupport": "سوف نقوم بإرسال الرد إلى عنوان البريد الإلكتروني هذا بواسطة @:devSupportEmail \\.يرجى التأكد من أنه يمكنك تلقي الرسائل باستخدام هذا البريد الإلكتروني."
+    "emailSupport": "سوف نقوم بإرسال الرد إلى عنوان البريد الإلكتروني هذا بواسطة @:devSupportEmail .يرجى التأكد من أنه يمكنك تلقي الرسائل باستخدام هذا البريد الإلكتروني."
   },
   "buttons": {
     "submit": "يُقدِّم",
@@ -96,7 +96,7 @@
     "login": "تسجيل الدخول"
   },
   "datetime": {
-    "currentYear": "{السنة الحالية}",
-    "currentDate": "{التاريخ الحالي}"
+    "currentYear": "{currentYear}",
+    "currentDate": "{currentDate}"
   }
 }

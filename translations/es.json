@@ -11,10 +11,10 @@
     "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "Precio más bajo de SMS salientes",
     "benefit2Desc": "$0,012 a EE. UU. y Canadá",
-    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
+    "benefit2": "@:store.benefit2Title @.lower:store.benefit2Desc",
     "benefit3Title": "Cambie el número en cualquier momento",
     "benefit3Desc": "Cancelar en cualquier momento",
-    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
+    "benefit3": "@:store.benefit3Title @.lower:store.benefit3Desc",
     "creditPacksTitle": "Paquetes de créditos",
     "creditPacksDesc": "Los puntos de recarga solo tendrán efecto después de comprar un número de teléfono.",
     "selectNumberTitle": "Seleccione un número",
@@ -23,7 +23,7 @@
     "emptySubscriptionsData": "Datos de suscripciones vacíos",
     "occurError": "Ocurrió un error, por favor intente nuevamente",
     "tip1": "Haga clic para comprar. El pago se cargará a su cuenta de iTunes. Para gestionar su suscripción de forma independiente, desactive la renovación automática al menos 24 horas antes de que finalice el período de facturación actual. La tarifa de renovación se cobrará automáticamente a la misma tarifa y plazo dentro de las 24 horas posteriores a la finalización del período. Después de realizar su compra, puede gestionar la configuración de su suscripción en cualquier momento a través de Configuración de la cuenta para tener un control total.",
-    "tip2": "\"Consejos:\n1. El número no se puede utilizar para recibir códigos de verificación.\n2. Para proteger su privacidad, la persona que llama no puede ver su número.\n3. Las llamadas que duren menos de 1 minuto tendrán un coste de 1 minuto."
+    "tip2": "Consejos:\n1. El número no se puede utilizar para recibir códigos de verificación.\n2. Para proteger su privacidad, la persona que llama no puede ver su número.\n3. Las llamadas que duren menos de 1 minuto tendrán un coste de 1 minuto."
   },
   "dialogs": {
     "bindNumberTip": "Vincular número de teléfono",
@@ -96,7 +96,7 @@
     "login": "Acceso"
   },
   "datetime": {
-    "currentYear": "{año actual}",
-    "currentDate": "{fechaactual}"
+    "currentYear": "{currentYear}",
+    "currentDate": "{currentDate}"
   }
 }

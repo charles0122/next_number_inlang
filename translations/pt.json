@@ -11,10 +11,10 @@
     "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "Menor preço para SMS de saída",
     "benefit2Desc": "US$ 0,012 para EUA e Canadá",
-    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
+    "benefit2": "@:store.benefit2Title @.lower:store.benefit2Desc",
     "benefit3Title": "Alterar número a qualquer momento",
     "benefit3Desc": "Cancelar a qualquer momento",
-    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
+    "benefit3": "@:store.benefit3Title @.lower:store.benefit3Desc",
     "creditPacksTitle": "Pacotes de crédito",
     "creditPacksDesc": "os pontos de recarga só terão efeito após a compra de um número de telefone",
     "selectNumberTitle": "Selecione um número",
@@ -23,7 +23,7 @@
     "emptySubscriptionsData": "Dados de assinaturas vazios",
     "occurError": "Ocorreu um erro, tente novamente",
     "tip1": "Clique para comprar. O pagamento será cobrado na sua conta do iTunes. Para gerenciar sua assinatura de forma independente, desabilite a renovação automática pelo menos 24 horas antes do fim do período de cobrança atual. A taxa de renovação será cobrada automaticamente na mesma taxa e prazo dentro de 24 horas da conclusão do período. Após fazer sua compra, você pode gerenciar suas configurações de assinatura a qualquer momento por meio das Configurações da conta para controle total.",
-    "tip2": "\"Pontas:\n1. O número não pode ser usado para receber códigos de verificação.\n2. Para proteger sua privacidade, o destinatário não pode ver seu número.\n3. Chamadas com duração inferior a 1 minuto custarão 1 minuto."
+    "tip2": "Pontas:\n1. O número não pode ser usado para receber códigos de verificação.\n2. Para proteger sua privacidade, o destinatário não pode ver seu número.\n3. Chamadas com duração inferior a 1 minuto custarão 1 minuto."
   },
   "dialogs": {
     "bindNumberTip": "Vincular número de telefone",
@@ -85,7 +85,7 @@
     "contact": "Contato",
     "contactHint": "Por favor, insira seu e-mail",
     "invalidEmail": "Por favor, insira um e-mail válido",
-    "emailSupport": "Enviaremos uma resposta para este endereço de e-mail por @:devSupportEmail \\. Certifique-se de que você pode receber mensagens com este e-mail."
+    "emailSupport": "Enviaremos uma resposta para este endereço de e-mail por @:devSupportEmail . Certifique-se de que você pode receber mensagens com este e-mail."
   },
   "buttons": {
     "submit": "Enviar",
@@ -96,7 +96,7 @@
     "login": "Conecte-se"
   },
   "datetime": {
-    "currentYear": "{AnoAtual}",
-    "currentDate": "{data atual}"
+    "currentYear": "{currentYear}",
+    "currentDate": "{currentDate}"
   }
 }

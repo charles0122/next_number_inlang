@@ -85,7 +85,7 @@
     "contact": "Contact",
     "contactHint": "Please enter your email",
     "invalidEmail": "Please enter a valid email",
-    "emailSupport": "We will send response to this email address by @:devSupportEmail\\.Please make sure you can receive messages with this email."
+    "emailSupport": "We will send response to this email address by @:devSupportEmail .Please make sure you can receive messages with this email."
   },
   "buttons": {
     "submit": "Submit",

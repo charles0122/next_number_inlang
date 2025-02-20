@@ -11,11 +11,11 @@
     "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "最低短信发送价格",
     "benefit2Desc": "0.012 美元至美国和加拿大",
-    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
+    "benefit2": "@:store.benefit2Title @.lower:store.benefit2Desc",
     "benefit3Title": "随时更换号码",
     "benefit3Desc": "随时取消",
-    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
-    "creditPacksTitle": "信用包",
+    "benefit3": "@:store.benefit3Title @.lower:store.benefit3Desc",
+    "creditPacksTitle": "积分包",
     "creditPacksDesc": "充值点数需在购买电话号码后才有效",
     "selectNumberTitle": "选择一个号码",
     "selectNumberDesc": "获取新号码以确保您的生活安全和隐私",
@@ -23,7 +23,7 @@
     "emptySubscriptionsData": "订阅数据为空",
     "occurError": "发生错误，请重试",
     "tip1": "点击购买。付款将从您的 iTunes 帐户中扣除。要独立管理您的订阅，请在当前计费期结束前至少 24 小时禁用自动续订。续订费用将在该期限结束后 24 小时内按相同费率和期限自动收取。购买后，您可以随时通过帐户设置管理您的订阅设置，实现完全控制。",
-    "tip2": "“尖端：\n1.该号码无法接收验证码。\n2.为了保护您的隐私，被叫方无法看到您的号码。\n3. 通话时间不足1分钟的，按1分钟计费。"
+    "tip2": "提醒：\n1.该号码无法接收验证码。\n2.为了保护您的隐私，被叫方无法看到您的号码。\n3. 通话时间不足1分钟的，按1分钟计费。"
   },
   "dialogs": {
     "bindNumberTip": "绑定手机号",
@@ -62,9 +62,9 @@
   },
   "callRates": {
     "title": "通话和短信费率",
-    "costNumberCredits": "费用（学分数量）",
+    "costNumberCredits": "费用（积分数量）",
     "note": "笔记：",
-    "outgoingTitle": "传出",
+    "outgoingTitle": "呼出",
     "outgoingDesc": "输入一个数字来检查支出费率。",
     "outgoingNoteLine1": "* 通话费率以每分钟计算。",
     "outgoingNoteLine2": "* 要发送文本，请先获取电话号码。",
@@ -75,17 +75,17 @@
     "tip": "以上显示的费率适用于大部分常规通话和短信流量到手机号码。请注意，如果短信到特殊"
   },
   "credits": {
-    "detailTitle": "致谢详情",
+    "detailTitle": "积分详情",
     "detailPackCardTitle": "为私人短信和电话充值"
   },
   "feedback": {
     "title": "反馈",
     "issueDetailsHint": "使用至少 10 个字符描述您的问题，以便我们能够更快地帮助您解决问题。",
     "issueDetails": "问题详细信息",
-    "contact": "接触",
+    "contact": "联系人",
     "contactHint": "请输入您的电子邮箱",
     "invalidEmail": "请输入有效的电子邮件",
-    "emailSupport": "我们将通过@:devSupportEmail \\ 向此电子邮件地址发送回复。请确保您可以通过此电子邮件接收消息。"
+    "emailSupport": "我们将通过@:devSupportEmail向此电子邮件地址发送回复。请确保您可以通过此电子邮件接收消息。"
   },
   "buttons": {
     "submit": "提交",
@@ -96,7 +96,7 @@
     "login": "登录"
   },
   "datetime": {
-    "currentYear": "{当前年份}",
-    "currentDate": "{当前日期}"
+    "currentYear": "{currentYear}",
+    "currentDate": "{currentDate}"
   }
 }

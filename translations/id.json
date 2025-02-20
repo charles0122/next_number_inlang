@@ -11,10 +11,10 @@
     "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "Harga SMS keluar terendah",
     "benefit2Desc": "$0,012 ke AS &amp; Kanada",
-    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
+    "benefit2": "@:store.benefit2Title @.lower:store.benefit2Desc",
     "benefit3Title": "Ganti nomor kapan saja",
     "benefit3Desc": "Batalkan Kapan Saja",
-    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
+    "benefit3": "@:store.benefit3Title @.lower:store.benefit3Desc",
     "creditPacksTitle": "Paket Kredit",
     "creditPacksDesc": "poin isi ulang hanya akan berlaku setelah membeli nomor telepon",
     "selectNumberTitle": "Pilih nomor",
@@ -23,7 +23,7 @@
     "emptySubscriptionsData": "Data langganan kosong",
     "occurError": "Terjadi kesalahan, Silakan coba lagi",
     "tip1": "Klik untuk Membeli. Pembayaran akan dibebankan ke akun iTunes Anda. Untuk mengelola langganan Anda secara mandiri, harap nonaktifkan perpanjangan otomatis setidaknya 24 jam sebelum akhir periode penagihan saat ini. Biaya perpanjangan akan secara otomatis dibebankan pada tarif dan jangka waktu yang sama dalam waktu 24 jam setelah periode berakhir. Setelah melakukan pembelian, Anda dapat mengelola pengaturan langganan Anda kapan saja melalui Pengaturan Akun untuk kontrol penuh.",
-    "tip2": "\"Tips:\n1. Nomor tersebut tidak dapat digunakan untuk menerima kode verifikasi.\n2. Untuk melindungi privasi Anda, penerima panggilan tidak dapat melihat nomor Anda.\n3. Panggilan yang berlangsung kurang dari 1 menit akan dikenakan biaya 1 menit."
+    "tip2": "Tips:\n1. Nomor tersebut tidak dapat digunakan untuk menerima kode verifikasi.\n2. Untuk melindungi privasi Anda, penerima panggilan tidak dapat melihat nomor Anda.\n3. Panggilan yang berlangsung kurang dari 1 menit akan dikenakan biaya 1 menit."
   },
   "dialogs": {
     "bindNumberTip": "Ikat nomor telepon",
@@ -85,7 +85,7 @@
     "contact": "Kontak",
     "contactHint": "Silakan masukkan email Anda",
     "invalidEmail": "Silakan masukkan email yang valid",
-    "emailSupport": "Kami akan mengirimkan respons ke alamat email ini paling lambat @:devSupportEmail \\.Pastikan Anda dapat menerima pesan dengan email ini."
+    "emailSupport": "Kami akan mengirimkan respons ke alamat email ini paling lambat @:devSupportEmail .Pastikan Anda dapat menerima pesan dengan email ini."
   },
   "buttons": {
     "submit": "Kirim",
@@ -96,7 +96,7 @@
     "login": "Login"
   },
   "datetime": {
-    "currentYear": "{tahunsaatini}",
-    "currentDate": "{tanggalsaatini}"
+    "currentYear": "{currentYear}",
+    "currentDate": "{currentDate}"
   }
 }

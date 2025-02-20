@@ -1,8 +1,8 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "আমি",
-  "supportEmail": "dev@auroinsta.com সম্পর্কে",
-  "devSupportEmail": "dev@auroinsta.com সম্পর্কে",
+  "supportEmail": "dev@auroinsta.com",
+  "devSupportEmail": "dev@auroinsta.com",
   "copyright": "© @:datetime .currentYear @:appName \\. সর্বস্বত্ব সংরক্ষিত।",
   "store": {
     "storeTabLabel": "দোকান",
@@ -11,10 +11,10 @@
     "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "সর্বনিম্ন আউটগোয়িং এসএমএস মূল্য",
     "benefit2Desc": "US&amp;CA-তে $0.012",
-    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
+    "benefit2": "@:store.benefit2Title @.lower:store.benefit2Desc",
     "benefit3Title": "যেকোনো সময় নম্বর পরিবর্তন করুন",
     "benefit3Desc": "যেকোনো সময় বাতিল করুন",
-    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
+    "benefit3": "@:store.benefit3Title @.lower:store.benefit3Desc",
     "creditPacksTitle": "ক্রেডিট প্যাক",
     "creditPacksDesc": "ফোন নম্বর কেনার পরেই রিচার্জ পয়েন্টগুলি কার্যকর হবে।",
     "selectNumberTitle": "একটি নম্বর নির্বাচন করুন",
@@ -85,7 +85,7 @@
     "contact": "যোগাযোগ",
     "contactHint": "আপনার ইমেল লিখুন।",
     "invalidEmail": "দয়া করে একটি বৈধ ইমেল লিখুন।",
-    "emailSupport": "আমরা এই ইমেল ঠিকানায় @:devSupportEmail \\ এর মাধ্যমে প্রতিক্রিয়া পাঠাবো। দয়া করে নিশ্চিত করুন যে আপনি এই ইমেলটি ব্যবহার করে বার্তা পেতে পারেন।"
+    "emailSupport": "আমরা এই ইমেল ঠিকানায় @:devSupportEmail এর মাধ্যমে প্রতিক্রিয়া পাঠাবো। দয়া করে নিশ্চিত করুন যে আপনি এই ইমেলটি ব্যবহার করে বার্তা পেতে পারেন।"
   },
   "buttons": {
     "submit": "জমা দিন",
@@ -96,7 +96,7 @@
     "login": "লগইন"
   },
   "datetime": {
-    "currentYear": "{বর্তমান বছর}",
-    "currentDate": "{বর্তমান তারিখ}"
+    "currentYear": "{currentYear}",
+    "currentDate": "{currentDate}"
   }
 }
