@@ -1,16 +1,20 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "ฉัน",
+  "supportEmail": "dev@auroinsta.com",
+  "devSupportEmail": "dev@auroinsta.com",
+  "copyright": "© @:datetime .currentYear @:appName \\. สงวนลิขสิทธิ์",
   "store": {
+    "storeTabLabel": "เก็บ",
     "benefit1Title": "เสนอฟรี $18",
     "benefit1Desc": "มูลค่าของนาทีโทรฟรี",
-    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "ราคา SMS ขาออกต่ำสุด",
     "benefit2Desc": "0.012 ดอลลาร์สหรัฐฯ และแคนาดา",
-    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
     "benefit3Title": "เปลี่ยนเบอร์ได้ตลอดเวลา",
     "benefit3Desc": "ยกเลิกได้ตลอดเวลา",
-    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
     "creditPacksTitle": "แพ็คเครดิต",
     "creditPacksDesc": "คะแนนชาร์จจะมีผลหลังจากซื้อหมายเลขโทรศัพท์เท่านั้น",
     "selectNumberTitle": "เลือกหมายเลข",
@@ -24,5 +28,75 @@
   "dialogs": {
     "bindNumberTip": "ผูกเบอร์โทรศัพท์",
     "bindNumberDesc": "ทดสอบการผูกหมายเลข desc"
+  },
+  "calls": {
+    "callsTabLabel": "การโทร",
+    "unknownCountry": "ประเทศที่ไม่ทราบ",
+    "callInProgress": "การโทรอยู่ระหว่างดำเนินการ"
+  },
+  "texts": {
+    "textsTabLabel": "ข้อความ"
+  },
+  "task": {
+    "dailyCheckIn": "เช็คอินรายวัน",
+    "freeSpinXChange": "ฟรีสปิน โอกาส {}",
+    "watchVideoToFreeSpin": "ดูวิดีโอเพื่อหมุนฟรี",
+    "quickSpinXCredits": "เครดิตสปินด่วน {}",
+    "surplus": "ส่วนเกิน",
+    "credits": "เครดิต",
+    "clearedAtMidnight": "เคลียร์ตอนเที่ยงคืน"
+  },
+  "numbers": {
+    "detailTitle": "รายละเอียดหมายเลข",
+    "getNewNumber": "รับหมายเลขใหม่",
+    "colorTag": "แท็กสี",
+    "plan": "วางแผน",
+    "planTip1": "* รายละเอียดแผน: {} หมายเลข",
+    "planTip2": "* พื้นที่ประยุกต์: {}",
+    "planTip3": "* ต่ออายุเมื่อ: {}",
+    "enableTexts": "เปิดใช้งานข้อความ",
+    "enableTextsTip": "เปิด/ปิดการส่งและรับข้อความตามหมายเลข",
+    "setDefault": "ตั้งค่าเป็นหมายเลขผู้โทรเริ่มต้น",
+    "setDefaultTip1": "* เมื่อคุณโทรออกหาใครก็ตามโดยใช้ Duo Phone เขา/เธอจะเห็นสายเรียกเข้าจากหมายเลขที่คุณตั้งไว้เป็นหมายเลขผู้โทร",
+    "setDefaultTip2": "* สามารถตั้งค่าหมายเลขผู้โทรเริ่มต้นได้เพียงหมายเลขเดียวเท่านั้น"
+  },
+  "callRates": {
+    "title": "อัตราค่าโทรและส่งข้อความ",
+    "costNumberCredits": "ค่าใช้จ่าย(จำนวนเครดิต)",
+    "note": "หมายเหตุ:",
+    "outgoingTitle": "ขาออก",
+    "outgoingDesc": "กรอกหมายเลขเพื่อตรวจสอบอัตราค่าโทรออก",
+    "outgoingNoteLine1": "* อัตราค่าโทรคิดเป็นนาที",
+    "outgoingNoteLine2": "* หากต้องการส่งข้อความ ต้องรับหมายเลขโทรศัพท์ก่อน",
+    "incomingTitle": "ขาเข้า",
+    "incomingDesc": "เลือกประเทศของหมายเลขโทรศัพท์ที่จะรับสายหรือข้อความ",
+    "incomingNoteLine1": "* อัตราค่าโทรคิดเป็นนาที",
+    "incomingNoteLine2": "* สำหรับสายเรียกเข้าและข้อความ จำเป็นต้องมีหมายเลขโทรศัพท์",
+    "tip": "อัตราที่แสดงด้านบนใช้กับการโทรและส่งข้อความปกติส่วนใหญ่ไปยังหมายเลขโทรศัพท์มือถือ โปรดทราบว่าในกรณีส่งข้อความไปยังหมายเลขพิเศษ"
+  },
+  "credits": {
+    "detailTitle": "รายละเอียดเครดิต",
+    "detailPackCardTitle": "เติมเงินเพื่อส่งข้อความและโทรส่วนตัว"
+  },
+  "feedback": {
+    "title": "ข้อเสนอแนะ",
+    "issueDetailsHint": "อธิบายปัญหาของคุณโดยใช้ตัวอักษรอย่างน้อย 10 ตัว เพื่อให้เราสามารถช่วยแก้ไขปัญหาของคุณได้รวดเร็วยิ่งขึ้น",
+    "issueDetails": "รายละเอียดปัญหา",
+    "contact": "ติดต่อ",
+    "contactHint": "กรุณากรอกอีเมล์ของคุณ",
+    "invalidEmail": "กรุณากรอกอีเมล์ที่ถูกต้อง",
+    "emailSupport": "เราจะส่งการตอบกลับไปยังที่อยู่อีเมลนี้โดย @:devSupportEmail \\ โปรดตรวจสอบให้แน่ใจว่าคุณสามารถรับข้อความผ่านอีเมลนี้ได้"
+  },
+  "buttons": {
+    "submit": "ส่ง",
+    "exit": "ทางออก",
+    "confirm": "ยืนยัน",
+    "cancel": "ยกเลิก",
+    "logOut": "ออกจากระบบ",
+    "login": "เข้าสู่ระบบ"
+  },
+  "datetime": {
+    "currentYear": "{ปีปัจจุบัน}",
+    "currentDate": "วันที่ปัจจุบัน"
   }
 }

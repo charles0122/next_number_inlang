@@ -1,16 +1,20 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "Me",
+  "supportEmail": "dev@auroinsta.com",
+  "devSupportEmail": "dev@auroinsta.com",
+  "copyright": "© @:datetime.currentYear @:appName\\. All rights reserved.",
   "store": {
+    "storeTabLabel": "Store",
     "benefit1Title": "Freely Offer $18",
     "benefit1Desc": "worth Of Free Call Minutes",
-    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit1": "@:store.benefit1Title @.lower:store.benefit1Desc",
     "benefit2Title": "Lowest outgoing SMS price",
     "benefit2Desc": "$0.012 to US&CA",
-    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit2": "@:store.benefit2Title @.lower:store.benefit2Desc",
     "benefit3Title": "Change number anytime",
     "benefit3Desc": "Cancel Anytime",
-    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "benefit3": "@:store.benefit3Title @.lower:store.benefit3Desc",
     "creditPacksTitle": "Credit Packs",
     "creditPacksDesc": "the recharge points will only take effect after purchasing a phone number",
     "selectNumberTitle": "Select a number",
@@ -24,5 +28,75 @@
   "dialogs": {
     "bindNumberTip": "Bind phone number",
     "bindNumberDesc": "test bind number desc"
+  },
+  "calls": {
+    "callsTabLabel": "Calls",
+    "unknownCountry": "Unknown Country",
+    "callInProgress": "Call in Progress"
+  },
+  "texts": {
+    "textsTabLabel": "Texts"
+  },
+  "task": {
+    "dailyCheckIn": "Daily check-in",
+    "freeSpinXChange": "Free Spin, {} chance",
+    "watchVideoToFreeSpin": "Watch Video To Free Spin",
+    "quickSpinXCredits": "Quick Spin {} Credits",
+    "surplus": "Surplus",
+    "credits": "Credits",
+    "clearedAtMidnight": "Cleared at midnight"
+  },
+  "numbers": {
+    "detailTitle": "Number Details",
+    "getNewNumber": "Get a New Number",
+    "colorTag": "Color Tag",
+    "plan": "Plan",
+    "planTip1": "* Plan Details: {} Number",
+    "planTip2": "* Applied Area: {}",
+    "planTip3": "* Renew on: {}",
+    "enableTexts": "Enable Texts",
+    "enableTextsTip": "Enable/Disable send and receive Texts by the number.",
+    "setDefault": "Set As Default Caller Number",
+    "setDefaultTip1": "* When you making an out call to someone by Duo Phone, he/she will see an incoming call from the number which you set as Caller Number.",
+    "setDefaultTip2": "* Only one number could be set as DefaultCaller Number."
+  },
+  "callRates": {
+    "title": "Call & Text Rates",
+    "costNumberCredits": "Cost(Number Credits)",
+    "note": "Notes:",
+    "outgoingTitle": "Outgoing",
+    "outgoingDesc": "Enter a number to check outgoing rates.",
+    "outgoingNoteLine1": "* Call rate is per minute.",
+    "outgoingNoteLine2": "* To send text, get a Phone Number first.",
+    "incomingTitle": "Incoming",
+    "incomingDesc": "Choose the country of the Phone Number to receive  call or text.",
+    "incomingNoteLine1": "* Call rate is per minute.",
+    "incomingNoteLine2": "* For incoming call and text, a Phone Number is needed.",
+    "tip": "The rate displayed above applies to most of the regular calling and texting traffic to mobile numbers. Please keep in mind that in casetext to special"
+  },
+  "credits": {
+    "detailTitle": "Credits Detail",
+    "detailPackCardTitle": "Top up for private text and calls"
+  },
+  "feedback": {
+    "title": "Feedback",
+    "issueDetailsHint": "Describe your issue using at least 10 characters so that we can help troubleshoot your issue more quickly.",
+    "issueDetails": "Issue Details",
+    "contact": "Contact",
+    "contactHint": "Please enter your email",
+    "invalidEmail": "Please enter a valid email",
+    "emailSupport": "We will send response to this email address by @:devSupportEmail\\.Please make sure you can receive messages with this email."
+  },
+  "buttons": {
+    "submit": "Submit",
+    "exit": "Exit",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "logOut": "Log Out",
+    "login": "Login"
+  },
+  "datetime": {
+    "currentYear": "{currentYear}",
+    "currentDate": "{currentDate}"
   }
 }

@@ -1,16 +1,20 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "Meu",
+  "supportEmail": "dev@auroinsta.com",
+  "devSupportEmail": "dev@auroinsta.com",
+  "copyright": "© @:datetime .currentYear @:appName \\. Todos os direitos reservados.",
   "store": {
+    "storeTabLabel": "Loja",
     "benefit1Title": "Oferta gratuita de $ 18",
     "benefit1Desc": "valor de minutos de chamadas grátis",
-    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "Menor preço para SMS de saída",
     "benefit2Desc": "US$ 0,012 para EUA e Canadá",
-    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
     "benefit3Title": "Alterar número a qualquer momento",
     "benefit3Desc": "Cancelar a qualquer momento",
-    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
     "creditPacksTitle": "Pacotes de crédito",
     "creditPacksDesc": "os pontos de recarga só terão efeito após a compra de um número de telefone",
     "selectNumberTitle": "Selecione um número",
@@ -24,5 +28,75 @@
   "dialogs": {
     "bindNumberTip": "Vincular número de telefone",
     "bindNumberDesc": "número de ligação de teste desc"
+  },
+  "calls": {
+    "callsTabLabel": "Chamadas",
+    "unknownCountry": "País Desconhecido",
+    "callInProgress": "Chamada em andamento"
+  },
+  "texts": {
+    "textsTabLabel": "Textos"
+  },
+  "task": {
+    "dailyCheckIn": "Check-in diário",
+    "freeSpinXChange": "Rodada grátis, {} chance",
+    "watchVideoToFreeSpin": "Assista ao vídeo para giros grátis",
+    "quickSpinXCredits": "Giro rápido {} Créditos",
+    "surplus": "Excedente",
+    "credits": "Créditos",
+    "clearedAtMidnight": "Desmarcado à meia-noite"
+  },
+  "numbers": {
+    "detailTitle": "Detalhes do número",
+    "getNewNumber": "Obtenha um novo número",
+    "colorTag": "Etiqueta de cor",
+    "plan": "Plano",
+    "planTip1": "* Detalhes do plano: {} Número",
+    "planTip2": "* Área Aplicada: {}",
+    "planTip3": "* Renovar em: {}",
+    "enableTexts": "Habilitar Textos",
+    "enableTextsTip": "Habilitar/Desabilitar envio e recebimento de mensagens de texto por número.",
+    "setDefault": "Definir como número de chamada padrão",
+    "setDefaultTip1": "* Ao fazer uma chamada para alguém pelo Duo Phone, a pessoa verá uma chamada recebida do número que você definiu como Número do Chamador.",
+    "setDefaultTip2": "* Somente um número pode ser definido como Número de Chamada Padrão."
+  },
+  "callRates": {
+    "title": "Tarifas de chamadas e mensagens de texto",
+    "costNumberCredits": "Custo (Número de créditos)",
+    "note": "Notas:",
+    "outgoingTitle": "Extrovertido",
+    "outgoingDesc": "Insira um número para verificar as tarifas de saída.",
+    "outgoingNoteLine1": "* A tarifa da chamada é por minuto.",
+    "outgoingNoteLine2": "* Para enviar texto, primeiro obtenha um número de telefone.",
+    "incomingTitle": "Entrada",
+    "incomingDesc": "Escolha o país do número de telefone para receber chamadas ou mensagens de texto.",
+    "incomingNoteLine1": "* A tarifa da chamada é por minuto.",
+    "incomingNoteLine2": "* Para chamadas e mensagens de texto recebidas, é necessário um número de telefone.",
+    "tip": "A taxa exibida acima se aplica à maioria do tráfego regular de chamadas e mensagens de texto para números de celular. Lembre-se de que, no caso de mensagens de texto para números especiais,"
+  },
+  "credits": {
+    "detailTitle": "Detalhes dos créditos",
+    "detailPackCardTitle": "Recarregue para chamadas e mensagens de texto privadas"
+  },
+  "feedback": {
+    "title": "Opinião",
+    "issueDetailsHint": "Descreva seu problema usando pelo menos 10 caracteres para que possamos ajudar a solucioná-lo mais rapidamente.",
+    "issueDetails": "Detalhes do problema",
+    "contact": "Contato",
+    "contactHint": "Por favor, insira seu e-mail",
+    "invalidEmail": "Por favor, insira um e-mail válido",
+    "emailSupport": "Enviaremos uma resposta para este endereço de e-mail por @:devSupportEmail \\. Certifique-se de que você pode receber mensagens com este e-mail."
+  },
+  "buttons": {
+    "submit": "Enviar",
+    "exit": "Saída",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "logOut": "Sair",
+    "login": "Conecte-se"
+  },
+  "datetime": {
+    "currentYear": "{AnoAtual}",
+    "currentDate": "{data atual}"
   }
 }

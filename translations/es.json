@@ -1,16 +1,20 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "A mí",
+  "supportEmail": "dev@auroinsta.com",
+  "devSupportEmail": "dev@auroinsta.com",
+  "copyright": "© @:datetime .currentYear @:appName \\. Todos los derechos reservados.",
   "store": {
+    "storeTabLabel": "Almacenar",
     "benefit1Title": "Ofrezca gratuitamente $18",
     "benefit1Desc": "Valor en minutos de llamadas gratis",
-    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "Precio más bajo de SMS salientes",
     "benefit2Desc": "$0,012 a EE. UU. y Canadá",
-    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
     "benefit3Title": "Cambie el número en cualquier momento",
     "benefit3Desc": "Cancelar en cualquier momento",
-    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
     "creditPacksTitle": "Paquetes de créditos",
     "creditPacksDesc": "Los puntos de recarga solo tendrán efecto después de comprar un número de teléfono.",
     "selectNumberTitle": "Seleccione un número",
@@ -24,5 +28,75 @@
   "dialogs": {
     "bindNumberTip": "Vincular número de teléfono",
     "bindNumberDesc": "número de enlace de prueba desc"
+  },
+  "calls": {
+    "callsTabLabel": "Llamadas",
+    "unknownCountry": "País desconocido",
+    "callInProgress": "Llamada en progreso"
+  },
+  "texts": {
+    "textsTabLabel": "Textos"
+  },
+  "task": {
+    "dailyCheckIn": "Check-in diario",
+    "freeSpinXChange": "Giro gratis, {} probabilidad",
+    "watchVideoToFreeSpin": "Mira el video para obtener giros gratis",
+    "quickSpinXCredits": "Giro rápido {} Créditos",
+    "surplus": "Superávit",
+    "credits": "Créditos",
+    "clearedAtMidnight": "Despejado a medianoche"
+  },
+  "numbers": {
+    "detailTitle": "Detalles del número",
+    "getNewNumber": "Obtenga un nuevo número",
+    "colorTag": "Etiqueta de color",
+    "plan": "Plan",
+    "planTip1": "* Detalles del plan: {} Número",
+    "planTip2": "* Área de aplicación: {}",
+    "planTip3": "* Renovar el: {}",
+    "enableTexts": "Habilitar textos",
+    "enableTextsTip": "Habilitar/Deshabilitar el envío y recepción de mensajes de texto por número.",
+    "setDefault": "Establecer como número de llamada predeterminado",
+    "setDefaultTip1": "* Cuando realiza una llamada saliente a alguien mediante Duo Phone, esa persona verá una llamada entrante del número que usted configure como número de llamada.",
+    "setDefaultTip2": "*Solo se puede configurar un número como número de llamada predeterminado."
+  },
+  "callRates": {
+    "title": "Tarifas de llamadas y mensajes de texto",
+    "costNumberCredits": "Costo (Número de créditos)",
+    "note": "Notas:",
+    "outgoingTitle": "Extrovertido",
+    "outgoingDesc": "Introduzca un número para consultar las tarifas de salida.",
+    "outgoingNoteLine1": "*La tarifa de llamada es por minuto.",
+    "outgoingNoteLine2": "* Para enviar mensajes de texto, primero obtenga un número de teléfono.",
+    "incomingTitle": "Entrante",
+    "incomingDesc": "Elija el país del número de teléfono para recibir llamadas o mensajes de texto.",
+    "incomingNoteLine1": "*La tarifa de llamada es por minuto.",
+    "incomingNoteLine2": "* Para llamadas entrantes y mensajes de texto, se necesita un número de teléfono.",
+    "tip": "La tarifa que se muestra arriba se aplica a la mayoría de llamadas y mensajes de texto habituales a números móviles. Tenga en cuenta que, en caso de que se envíen mensajes de texto a números especiales,"
+  },
+  "credits": {
+    "detailTitle": "Detalle de créditos",
+    "detailPackCardTitle": "Recarga para llamadas y mensajes de texto privados"
+  },
+  "feedback": {
+    "title": "Comentario",
+    "issueDetailsHint": "Describe tu problema utilizando al menos 10 caracteres para que podamos ayudarte a solucionarlo más rápidamente.",
+    "issueDetails": "Detalles del problema",
+    "contact": "Contacto",
+    "contactHint": "Por favor ingrese su correo electrónico",
+    "invalidEmail": "Por favor, introduzca un correo electrónico válido",
+    "emailSupport": "Enviaremos la respuesta a esta dirección de correo electrónico por @:devSupportEmail . Asegúrese de que puede recibir mensajes con este correo electrónico."
+  },
+  "buttons": {
+    "submit": "Entregar",
+    "exit": "Salida",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "logOut": "Finalizar la sesión",
+    "login": "Acceso"
+  },
+  "datetime": {
+    "currentYear": "{año actual}",
+    "currentDate": "{fechaactual}"
   }
 }

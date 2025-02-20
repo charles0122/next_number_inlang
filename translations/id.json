@@ -1,16 +1,20 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "Aku",
+  "supportEmail": "dev@auroinsta.com",
+  "devSupportEmail": "dev@auroinsta.com",
+  "copyright": "© @:datetime .currentYear @:appName \\. Semua hak dilindungi undang-undang.",
   "store": {
+    "storeTabLabel": "Toko",
     "benefit1Title": "Tawarkan $18 secara gratis",
     "benefit1Desc": "Nilai Menit Panggilan Gratis",
-    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "Harga SMS keluar terendah",
     "benefit2Desc": "$0,012 ke AS &amp; Kanada",
-    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
     "benefit3Title": "Ganti nomor kapan saja",
     "benefit3Desc": "Batalkan Kapan Saja",
-    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
     "creditPacksTitle": "Paket Kredit",
     "creditPacksDesc": "poin isi ulang hanya akan berlaku setelah membeli nomor telepon",
     "selectNumberTitle": "Pilih nomor",
@@ -24,5 +28,75 @@
   "dialogs": {
     "bindNumberTip": "Ikat nomor telepon",
     "bindNumberDesc": "uji nomor ikatan desc"
+  },
+  "calls": {
+    "callsTabLabel": "Panggilan",
+    "unknownCountry": "Negara Tidak Dikenal",
+    "callInProgress": "Panggilan Sedang Berlangsung"
+  },
+  "texts": {
+    "textsTabLabel": "Teks"
+  },
+  "task": {
+    "dailyCheckIn": "Pendaftaran harian",
+    "freeSpinXChange": "Putaran Gratis, peluang {}",
+    "watchVideoToFreeSpin": "Tonton Video Untuk Putaran Gratis",
+    "quickSpinXCredits": "Putaran Cepat {} Kredit",
+    "surplus": "Kelebihan",
+    "credits": "Kredit",
+    "clearedAtMidnight": "Dibersihkan pada tengah malam"
+  },
+  "numbers": {
+    "detailTitle": "Rincian Nomor",
+    "getNewNumber": "Dapatkan Nomor Baru",
+    "colorTag": "Label Warna",
+    "plan": "Rencana",
+    "planTip1": "* Detail Paket: {} Nomor",
+    "planTip2": "* Area Terapan: {}",
+    "planTip3": "* Perbarui pada: {}",
+    "enableTexts": "Aktifkan Teks",
+    "enableTextsTip": "Mengaktifkan/Menonaktifkan kirim dan terima Teks berdasarkan nomor.",
+    "setDefault": "Tetapkan Sebagai Nomor Penelepon Default",
+    "setDefaultTip1": "* Saat Anda melakukan panggilan keluar ke seseorang melalui Duo Phone, dia akan melihat panggilan masuk dari nomor yang Anda tetapkan sebagai Nomor Penelepon.",
+    "setDefaultTip2": "* Hanya satu nomor yang dapat ditetapkan sebagai Nomor Pemanggil Default."
+  },
+  "callRates": {
+    "title": "Tarif Panggilan &amp; SMS",
+    "costNumberCredits": "Biaya (Jumlah Kredit)",
+    "note": "Catatan:",
+    "outgoingTitle": "Keluar",
+    "outgoingDesc": "Masukkan angka untuk memeriksa tarif keluar.",
+    "outgoingNoteLine1": "* Tarif panggilan per menit.",
+    "outgoingNoteLine2": "* Untuk mengirim teks, dapatkan Nomor Telepon terlebih dahulu.",
+    "incomingTitle": "Masuk",
+    "incomingDesc": "Pilih negara Nomor Telepon untuk menerima panggilan atau teks.",
+    "incomingNoteLine1": "* Tarif panggilan per menit.",
+    "incomingNoteLine2": "* Untuk panggilan masuk dan teks, diperlukan Nomor Telepon.",
+    "tip": "Tarif yang ditampilkan di atas berlaku untuk sebagian besar lalu lintas panggilan dan SMS reguler ke nomor ponsel. Harap diingat bahwa jika mengirim SMS ke nomor khusus"
+  },
+  "credits": {
+    "detailTitle": "Detail Kredit",
+    "detailPackCardTitle": "Isi ulang untuk teks dan panggilan pribadi"
+  },
+  "feedback": {
+    "title": "Masukan",
+    "issueDetailsHint": "Jelaskan masalah Anda menggunakan setidaknya 10 karakter sehingga kami dapat membantu memecahkan masalah Anda lebih cepat.",
+    "issueDetails": "Rincian Masalah",
+    "contact": "Kontak",
+    "contactHint": "Silakan masukkan email Anda",
+    "invalidEmail": "Silakan masukkan email yang valid",
+    "emailSupport": "Kami akan mengirimkan respons ke alamat email ini paling lambat @:devSupportEmail \\.Pastikan Anda dapat menerima pesan dengan email ini."
+  },
+  "buttons": {
+    "submit": "Kirim",
+    "exit": "KELUAR",
+    "confirm": "Mengonfirmasi",
+    "cancel": "Membatalkan",
+    "logOut": "Keluar",
+    "login": "Login"
+  },
+  "datetime": {
+    "currentYear": "{tahunsaatini}",
+    "currentDate": "{tanggalsaatini}"
   }
 }

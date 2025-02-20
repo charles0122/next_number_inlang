@@ -1,16 +1,20 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "Tôi",
+  "supportEmail": "dev@auroinsta.com",
+  "devSupportEmail": "dev@auroinsta.com",
+  "copyright": "© @:datetime .currentYear @:appName \\. Mọi quyền được bảo lưu.",
   "store": {
+    "storeTabLabel": "Cửa hàng",
     "benefit1Title": "Tặng miễn phí 18$",
     "benefit1Desc": "giá trị của phút gọi miễn phí",
-    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "Giá tin nhắn SMS gửi đi thấp nhất",
     "benefit2Desc": "0,012 đô la đến Hoa Kỳ và Canada",
-    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
     "benefit3Title": "Thay đổi số bất cứ lúc nào",
     "benefit3Desc": "Hủy bỏ bất cứ lúc nào",
-    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
     "creditPacksTitle": "Gói tín dụng",
     "creditPacksDesc": "điểm nạp tiền chỉ có hiệu lực sau khi mua số điện thoại",
     "selectNumberTitle": "Chọn một số",
@@ -24,5 +28,75 @@
   "dialogs": {
     "bindNumberTip": "Liên kết số điện thoại",
     "bindNumberDesc": "kiểm tra số ràng buộc mô tả"
+  },
+  "calls": {
+    "callsTabLabel": "Cuộc gọi",
+    "unknownCountry": "Quốc gia không xác định",
+    "callInProgress": "Cuộc gọi đang diễn ra"
+  },
+  "texts": {
+    "textsTabLabel": "Văn bản"
+  },
+  "task": {
+    "dailyCheckIn": "Kiểm tra hàng ngày",
+    "freeSpinXChange": "Vòng quay miễn phí, cơ hội {}",
+    "watchVideoToFreeSpin": "Xem Video Để Quay Miễn Phí",
+    "quickSpinXCredits": "Quay nhanh {} Điểm tín dụng",
+    "surplus": "Thặng dư",
+    "credits": "Tín dụng",
+    "clearedAtMidnight": "Đã xóa vào lúc nửa đêm"
+  },
+  "numbers": {
+    "detailTitle": "Chi tiết số",
+    "getNewNumber": "Nhận số mới",
+    "colorTag": "Thẻ màu",
+    "plan": "Kế hoạch",
+    "planTip1": "* Chi tiết kế hoạch: {} Số",
+    "planTip2": "* Khu vực áp dụng: {}",
+    "planTip3": "* Gia hạn vào ngày: {}",
+    "enableTexts": "Cho phép văn bản",
+    "enableTextsTip": "Bật/Tắt tính năng gửi và nhận tin nhắn theo số.",
+    "setDefault": "Đặt làm số người gọi mặc định",
+    "setDefaultTip1": "* Khi bạn gọi điện cho ai đó bằng Duo Phone, người đó sẽ thấy cuộc gọi đến từ số mà bạn đặt làm Số người gọi.",
+    "setDefaultTip2": "* Chỉ có thể đặt một số làm Số người gọi mặc định."
+  },
+  "callRates": {
+    "title": "Cước gọi và nhắn tin",
+    "costNumberCredits": "Chi phí (Số tín chỉ)",
+    "note": "Ghi chú:",
+    "outgoingTitle": "Hướng ngoại",
+    "outgoingDesc": "Nhập số để kiểm tra giá cước gửi đi.",
+    "outgoingNoteLine1": "* Cước gọi được tính theo phút.",
+    "outgoingNoteLine2": "* Để gửi tin nhắn, trước tiên hãy lấy Số điện thoại.",
+    "incomingTitle": "Đang đến",
+    "incomingDesc": "Chọn quốc gia của Số điện thoại để nhận cuộc gọi hoặc tin nhắn.",
+    "incomingNoteLine1": "* Cước gọi được tính theo phút.",
+    "incomingNoteLine2": "* Cần có Số điện thoại để nhận cuộc gọi và tin nhắn đến.",
+    "tip": "Mức giá hiển thị ở trên áp dụng cho hầu hết lưu lượng gọi điện và nhắn tin thông thường đến các số điện thoại di động. Xin lưu ý rằng trong trường hợp văn bản đến các số đặc biệt"
+  },
+  "credits": {
+    "detailTitle": "Chi tiết tín dụng",
+    "detailPackCardTitle": "Nạp tiền cho tin nhắn và cuộc gọi riêng tư"
+  },
+  "feedback": {
+    "title": "Nhận xét",
+    "issueDetailsHint": "Hãy mô tả vấn đề của bạn bằng ít nhất 10 ký tự để chúng tôi có thể giúp bạn khắc phục sự cố nhanh hơn.",
+    "issueDetails": "Chi tiết vấn đề",
+    "contact": "Liên hệ",
+    "contactHint": "Vui lòng nhập email của bạn",
+    "invalidEmail": "Vui lòng nhập email hợp lệ",
+    "emailSupport": "Chúng tôi sẽ gửi phản hồi đến địa chỉ email này theo địa chỉ @:devSupportEmail \\. Hãy đảm bảo rằng bạn có thể nhận được tin nhắn qua email này."
+  },
+  "buttons": {
+    "submit": "Nộp",
+    "exit": "Ra",
+    "confirm": "Xác nhận",
+    "cancel": "Hủy bỏ",
+    "logOut": "Đăng xuất",
+    "login": "Đăng nhập"
+  },
+  "datetime": {
+    "currentYear": "{năm hiện tại}",
+    "currentDate": "{ngày hiện tại}"
   }
 }

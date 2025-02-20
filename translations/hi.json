@@ -1,16 +1,20 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "मुझे",
+  "supportEmail": "dev@auroinsta.com",
+  "devSupportEmail": "dev@auroinsta.com",
+  "copyright": "© @:datetime .currentYear @:appName \\. सभी अधिकार सुरक्षित।",
   "store": {
+    "storeTabLabel": "इकट्ठा करना",
     "benefit1Title": "मुफ़्त में $18 ऑफ़र करें",
     "benefit1Desc": "निःशुल्क कॉल मिनटों का मूल्य",
-    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "सबसे कम आउटगोइंग एसएमएस कीमत",
     "benefit2Desc": "यूएस और सीए के लिए $0.012",
-    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
     "benefit3Title": "किसी भी समय नंबर बदलें",
     "benefit3Desc": "किसी भी समय रद्द करें",
-    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
     "creditPacksTitle": "क्रेडिट पैक",
     "creditPacksDesc": "रिचार्ज पॉइंट केवल फ़ोन नंबर खरीदने के बाद ही प्रभावी होंगे",
     "selectNumberTitle": "कोई नंबर चुनें",
@@ -24,5 +28,75 @@
   "dialogs": {
     "bindNumberTip": "फ़ोन नंबर बाँधें",
     "bindNumberDesc": "परीक्षण बाइंड संख्या विवरण"
+  },
+  "calls": {
+    "callsTabLabel": "कॉल",
+    "unknownCountry": "अज्ञात देश",
+    "callInProgress": "कॉल प्रगति पर है"
+  },
+  "texts": {
+    "textsTabLabel": "ग्रंथों"
+  },
+  "task": {
+    "dailyCheckIn": "दैनिक चेक-इन",
+    "freeSpinXChange": "निःशुल्क स्पिन, {} मौका",
+    "watchVideoToFreeSpin": "निःशुल्क स्पिन के लिए वीडियो देखें",
+    "quickSpinXCredits": "त्वरित स्पिन {} क्रेडिट",
+    "surplus": "आधिक्य",
+    "credits": "क्रेडिट",
+    "clearedAtMidnight": "आधी रात को मंजूरी दी गई"
+  },
+  "numbers": {
+    "detailTitle": "नंबर विवरण",
+    "getNewNumber": "नया नंबर प्राप्त करें",
+    "colorTag": "रंग टैग",
+    "plan": "योजना",
+    "planTip1": "* योजना विवरण: {} संख्या",
+    "planTip2": "* लागू क्षेत्र: {}",
+    "planTip3": "* नवीनीकरण तिथि: {}",
+    "enableTexts": "टेक्स्ट सक्षम करें",
+    "enableTextsTip": "नंबर द्वारा टेक्स्ट भेजने और प्राप्त करने को सक्षम/अक्षम करें।",
+    "setDefault": "डिफ़ॉल्ट कॉलर नंबर के रूप में सेट करें",
+    "setDefaultTip1": "* जब आप डुओ फोन द्वारा किसी को आउट कॉल करते हैं, तो उसे उस नंबर से आने वाली कॉल दिखाई देगी जिसे आपने कॉलर नंबर के रूप में सेट किया है।",
+    "setDefaultTip2": "* केवल एक नंबर को डिफ़ॉल्ट कॉलर नंबर के रूप में सेट किया जा सकता है।"
+  },
+  "callRates": {
+    "title": "कॉल और टेक्स्ट दरें",
+    "costNumberCredits": "लागत(क्रेडिट की संख्या)",
+    "note": "टिप्पणियाँ:",
+    "outgoingTitle": "जावक",
+    "outgoingDesc": "आउटगोइंग दरें जांचने के लिए एक संख्या दर्ज करें.",
+    "outgoingNoteLine1": "* कॉल दर प्रति मिनट है।",
+    "outgoingNoteLine2": "* संदेश भेजने के लिए पहले फ़ोन नंबर प्राप्त करें।",
+    "incomingTitle": "आने वाली",
+    "incomingDesc": "कॉल या टेक्स्ट प्राप्त करने के लिए फ़ोन नंबर का देश चुनें.",
+    "incomingNoteLine1": "* कॉल दर प्रति मिनट है।",
+    "incomingNoteLine2": "* इनकमिंग कॉल और टेक्स्ट के लिए फ़ोन नंबर की आवश्यकता है।",
+    "tip": "ऊपर दर्शाई गई दर मोबाइल नंबरों पर होने वाले अधिकांश नियमित कॉलिंग और टेक्स्टिंग ट्रैफ़िक पर लागू होती है। कृपया ध्यान रखें कि विशेष मामलों में टेक्स्ट करें"
+  },
+  "credits": {
+    "detailTitle": "क्रेडिट विवरण",
+    "detailPackCardTitle": "निजी टेक्स्ट और कॉल के लिए टॉप अप करें"
+  },
+  "feedback": {
+    "title": "प्रतिक्रिया",
+    "issueDetailsHint": "अपनी समस्या का वर्णन कम से कम 10 अक्षरों में करें ताकि हम आपकी समस्या का शीघ्र निवारण कर सकें।",
+    "issueDetails": "समस्या विवरण",
+    "contact": "संपर्क",
+    "contactHint": "कृपया अपना ईमेल दर्ज करें",
+    "invalidEmail": "कृपया एक मान्य ईमेल दर्ज करें",
+    "emailSupport": "हम इस ईमेल पते पर @:devSupportEmail द्वारा प्रतिक्रिया भेजेंगे। कृपया सुनिश्चित करें कि आप इस ईमेल के साथ संदेश प्राप्त कर सकते हैं।"
+  },
+  "buttons": {
+    "submit": "जमा करना",
+    "exit": "बाहर निकलना",
+    "confirm": "पुष्टि करना",
+    "cancel": "रद्द करना",
+    "logOut": "लॉग आउट",
+    "login": "लॉग इन करें"
+  },
+  "datetime": {
+    "currentYear": "{चालू वर्ष}",
+    "currentDate": "{वर्तमान तिथि}"
   }
 }

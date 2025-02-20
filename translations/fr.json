@@ -1,16 +1,20 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "Moi",
+  "supportEmail": "dev@auroinsta.com",
+  "devSupportEmail": "dev@auroinsta.com",
+  "copyright": "© @:datetime .currentYear @:appName \\. Tous droits réservés.",
   "store": {
+    "storeTabLabel": "Magasin",
     "benefit1Title": "Offrez gratuitement 18 $",
     "benefit1Desc": "valeur de minutes d'appel gratuites",
-    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "Prix SMS sortant le plus bas",
     "benefit2Desc": "0,012 $ aux États-Unis et au Canada",
-    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
     "benefit3Title": "Changer de numéro à tout moment",
     "benefit3Desc": "Annuler à tout moment",
-    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
     "creditPacksTitle": "Packs de crédits",
     "creditPacksDesc": "les points de recharge ne prendront effet qu'après l'achat d'un numéro de téléphone",
     "selectNumberTitle": "Sélectionnez un numéro",
@@ -24,5 +28,75 @@
   "dialogs": {
     "bindNumberTip": "Lier un numéro de téléphone",
     "bindNumberDesc": "numéro de liaison de test desc"
+  },
+  "calls": {
+    "callsTabLabel": "Appels",
+    "unknownCountry": "Pays inconnu",
+    "callInProgress": "Appel en cours"
+  },
+  "texts": {
+    "textsTabLabel": "Textes"
+  },
+  "task": {
+    "dailyCheckIn": "Enregistrement quotidien",
+    "freeSpinXChange": "Tour gratuit, {} chance",
+    "watchVideoToFreeSpin": "Regardez la vidéo pour un tour gratuit",
+    "quickSpinXCredits": "Tour rapide {} Crédits",
+    "surplus": "Surplus",
+    "credits": "Crédits",
+    "clearedAtMidnight": "Dégagé à minuit"
+  },
+  "numbers": {
+    "detailTitle": "Détails du numéro",
+    "getNewNumber": "Obtenir un nouveau numéro",
+    "colorTag": "Étiquette de couleur",
+    "plan": "Plan",
+    "planTip1": "* Détails du plan : {} Numéro",
+    "planTip2": "* Domaine d'application : {}",
+    "planTip3": "* Renouveler le : {}",
+    "enableTexts": "Activer les textes",
+    "enableTextsTip": "Activer/désactiver l'envoi et la réception de SMS par numéro.",
+    "setDefault": "Définir comme numéro d'appelant par défaut",
+    "setDefaultTip1": "* Lorsque vous passez un appel sortant à quelqu'un avec Duo Phone, il/elle verra un appel entrant provenant du numéro que vous avez défini comme numéro d'appelant.",
+    "setDefaultTip2": "* Un seul numéro peut être défini comme numéro d'appelant par défaut."
+  },
+  "callRates": {
+    "title": "Tarifs des appels et des SMS",
+    "costNumberCredits": "Coût (nombre de crédits)",
+    "note": "Remarques :",
+    "outgoingTitle": "Sortant",
+    "outgoingDesc": "Entrez un numéro pour vérifier les tarifs sortants.",
+    "outgoingNoteLine1": "* Le tarif des appels est par minute.",
+    "outgoingNoteLine2": "* Pour envoyer un SMS, obtenez d'abord un numéro de téléphone.",
+    "incomingTitle": "Entrant",
+    "incomingDesc": "Choisissez le pays du numéro de téléphone pour recevoir un appel ou un SMS.",
+    "incomingNoteLine1": "* Le tarif des appels est par minute.",
+    "incomingNoteLine2": "* Pour les appels entrants et les SMS, un numéro de téléphone est nécessaire.",
+    "tip": "Le tarif affiché ci-dessus s'applique à la plupart des appels et des SMS réguliers vers des numéros mobiles. Veuillez garder à l'esprit qu'en cas d'envoi de SMS vers des numéros spéciaux"
+  },
+  "credits": {
+    "detailTitle": "Crédits Détail",
+    "detailPackCardTitle": "Rechargez pour des SMS et des appels privés"
+  },
+  "feedback": {
+    "title": "Retour",
+    "issueDetailsHint": "Décrivez votre problème en utilisant au moins 10 caractères afin que nous puissions vous aider à résoudre votre problème plus rapidement.",
+    "issueDetails": "Détails du problème",
+    "contact": "Contact",
+    "contactHint": "Veuillez entrer votre email",
+    "invalidEmail": "Veuillez entrer une adresse e-mail valide",
+    "emailSupport": "Nous enverrons une réponse à cette adresse e-mail par @:devSupportEmail \\. Veuillez vous assurer que vous pouvez recevoir des messages avec cet e-mail."
+  },
+  "buttons": {
+    "submit": "Soumettre",
+    "exit": "Sortie",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "logOut": "Se déconnecter",
+    "login": "Se connecter"
+  },
+  "datetime": {
+    "currentYear": "{année en cours}",
+    "currentDate": "{date actuelle}"
   }
 }

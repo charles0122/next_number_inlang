@@ -1,16 +1,20 @@
 {
   "appName": "NextNumber",
   "defaultUsername": "أنا",
+  "supportEmail": "المطور@auroinsta.com",
+  "devSupportEmail": "المطور@auroinsta.com",
+  "copyright": "© @:datetime .currentYear @:appName \\. جميع الحقوق محفوظة.",
   "store": {
+    "storeTabLabel": "محل",
     "benefit1Title": "عرض مجاني بقيمة 18 دولارًا",
     "benefit1Desc": "قيمة دقائق المكالمات المجانية",
-    "benefit1": "@:benefit1Title @:benefit1Desc",
+    "benefit1": "@:store.benefit1Title @:store.benefit1Desc",
     "benefit2Title": "أقل سعر للرسائل النصية القصيرة الصادرة",
     "benefit2Desc": "0.012 إلى الولايات المتحدة وكندا",
-    "benefit2": "@:benefit2Title @:benefit2Desc",
+    "benefit2": "@:store.benefit2Title @:store.benefit2Desc",
     "benefit3Title": "تغيير الرقم في أي وقت",
     "benefit3Desc": "إلغاء في أي وقت",
-    "benefit3": "@:benefit3Title @:benefit3Desc",
+    "benefit3": "@:store.benefit3Title @:store.benefit3Desc",
     "creditPacksTitle": "حزم الائتمان",
     "creditPacksDesc": "لن يتم تفعيل نقاط الشحن إلا بعد شراء رقم هاتف",
     "selectNumberTitle": "حدد رقما",
@@ -24,5 +28,75 @@
   "dialogs": {
     "bindNumberTip": "ربط رقم الهاتف",
     "bindNumberDesc": "رقم ربط الاختبار الوصف"
+  },
+  "calls": {
+    "callsTabLabel": "المكالمات",
+    "unknownCountry": "بلد غير معروف",
+    "callInProgress": "مكالمة جارية"
+  },
+  "texts": {
+    "textsTabLabel": "النصوص"
+  },
+  "task": {
+    "dailyCheckIn": "تسجيل الوصول اليومي",
+    "freeSpinXChange": "دورة مجانية، فرصة {}",
+    "watchVideoToFreeSpin": "شاهد الفيديو للحصول على دورة مجانية",
+    "quickSpinXCredits": "دورة سريعة {} رصيد",
+    "surplus": "فائض",
+    "credits": "الاعتمادات",
+    "clearedAtMidnight": "تمت الموافقة عليها في منتصف الليل"
+  },
+  "numbers": {
+    "detailTitle": "تفاصيل الرقم",
+    "getNewNumber": "احصل على رقم جديد",
+    "colorTag": "علامة اللون",
+    "plan": "يخطط",
+    "planTip1": "* تفاصيل الخطة: {} رقم",
+    "planTip2": "* المساحة المطبقة: {}",
+    "planTip3": "* تجديد في: {}",
+    "enableTexts": "تمكين النصوص",
+    "enableTextsTip": "تمكين/تعطيل إرسال واستقبال الرسائل النصية حسب الرقم.",
+    "setDefault": "تعيين كرقم المتصل الافتراضي",
+    "setDefaultTip1": "* عند إجراء مكالمة خارجية إلى شخص ما عبر Duo Phone، سيرى هذا الشخص مكالمة واردة من الرقم الذي قمت بتعيينه كرقم المتصل.",
+    "setDefaultTip2": "* لا يمكن تعيين سوى رقم واحد كرقم المتصل الافتراضي."
+  },
+  "callRates": {
+    "title": "أسعار المكالمات والرسائل النصية",
+    "costNumberCredits": "التكلفة(عدد الاعتمادات)",
+    "note": "ملحوظات:",
+    "outgoingTitle": "صادر",
+    "outgoingDesc": "أدخل رقمًا للتحقق من أسعار المكالمات الصادرة.",
+    "outgoingNoteLine1": "* سعر المكالمة بالدقيقة.",
+    "outgoingNoteLine2": "* لإرسال رسالة نصية، احصل على رقم الهاتف أولاً.",
+    "incomingTitle": "وارد",
+    "incomingDesc": "اختر بلد رقم الهاتف الذي تريد استقبال المكالمة أو الرسالة النصية عليه.",
+    "incomingNoteLine1": "* سعر المكالمة بالدقيقة.",
+    "incomingNoteLine2": "* بالنسبة للمكالمات الواردة والرسائل النصية، هناك حاجة إلى رقم هاتف.",
+    "tip": "ينطبق السعر المعروض أعلاه على معظم المكالمات والرسائل النصية العادية إلى أرقام الهاتف المحمول. يرجى مراعاة أنه في حالة إرسال رسالة نصية إلى أرقام خاصة"
+  },
+  "credits": {
+    "detailTitle": "تفاصيل الاعتمادات",
+    "detailPackCardTitle": "قم بشحن رصيدك للرسائل النصية والمكالمات الخاصة"
+  },
+  "feedback": {
+    "title": "تعليق",
+    "issueDetailsHint": "قم بوصف مشكلتك باستخدام 10 أحرف على الأقل حتى نتمكن من مساعدتك في استكشاف مشكلتك وإصلاحها بشكل أسرع.",
+    "issueDetails": "تفاصيل المشكلة",
+    "contact": "اتصال",
+    "contactHint": "الرجاء إدخال بريدك الإلكتروني",
+    "invalidEmail": "الرجاء إدخال بريد إلكتروني صالح",
+    "emailSupport": "سوف نقوم بإرسال الرد إلى عنوان البريد الإلكتروني هذا بواسطة @:devSupportEmail \\.يرجى التأكد من أنه يمكنك تلقي الرسائل باستخدام هذا البريد الإلكتروني."
+  },
+  "buttons": {
+    "submit": "يُقدِّم",
+    "exit": "مخرج",
+    "confirm": "يتأكد",
+    "cancel": "يلغي",
+    "logOut": "تسجيل الخروج",
+    "login": "تسجيل الدخول"
+  },
+  "datetime": {
+    "currentYear": "{السنة الحالية}",
+    "currentDate": "{التاريخ الحالي}"
   }
 }
