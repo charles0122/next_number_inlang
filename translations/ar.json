@@ -35,7 +35,9 @@
     "callInProgress": "مكالمة جارية"
   },
   "texts": {
-    "textsTabLabel": "النصوص"
+    "textsTabLabel": "النصوص",
+    "newTextsTitle": "نصوص جديدة",
+    "noMoreChatData": "لم يعد هناك سجلات للدردشة."
   },
   "task": {
     "dailyCheckIn": "تسجيل الوصول اليومي",
@@ -44,7 +46,9 @@
     "quickSpinXCredits": "دورة سريعة {} رصيد",
     "surplus": "فائض",
     "credits": "الاعتمادات",
-    "clearedAtMidnight": "تمت الموافقة عليها في منتصف الليل"
+    "clearedAtMidnight": "تمت الموافقة عليها في منتصف الليل",
+    "luckyCreditsTitle": "ائتمانات الحظ",
+    "dailyTasksTitle": "المهام اليومية"
   },
   "numbers": {
     "detailTitle": "تفاصيل الرقم",
@@ -58,7 +62,8 @@
     "enableTextsTip": "تمكين/تعطيل إرسال واستقبال الرسائل النصية حسب الرقم.",
     "setDefault": "تعيين كرقم المتصل الافتراضي",
     "setDefaultTip1": "* عند إجراء مكالمة خارجية إلى شخص ما عبر Duo Phone، سيرى هذا الشخص مكالمة واردة من الرقم الذي قمت بتعيينه كرقم المتصل.",
-    "setDefaultTip2": "* لا يمكن تعيين سوى رقم واحد كرقم المتصل الافتراضي."
+    "setDefaultTip2": "* لا يمكن تعيين سوى رقم واحد كرقم المتصل الافتراضي.",
+    "getNewNumberTip": "لا يوجد رقم هاتف. احصل على رقم هاتف لإجراء المكالمات."
   },
   "callRates": {
     "title": "أسعار المكالمات والرسائل النصية",

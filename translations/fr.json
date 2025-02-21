@@ -35,7 +35,9 @@
     "callInProgress": "Appel en cours"
   },
   "texts": {
-    "textsTabLabel": "Textes"
+    "textsTabLabel": "Textes",
+    "newTextsTitle": "Nouveaux textes",
+    "noMoreChatData": "Il n'y a plus d'enregistrements de discussion."
   },
   "task": {
     "dailyCheckIn": "Enregistrement quotidien",
@@ -44,7 +46,9 @@
     "quickSpinXCredits": "Tour rapide {} Crédits",
     "surplus": "Surplus",
     "credits": "Crédits",
-    "clearedAtMidnight": "Dégagé à minuit"
+    "clearedAtMidnight": "Dégagé à minuit",
+    "luckyCreditsTitle": "Crédits chanceux",
+    "dailyTasksTitle": "Tâches quotidiennes"
   },
   "numbers": {
     "detailTitle": "Détails du numéro",
@@ -58,7 +62,8 @@
     "enableTextsTip": "Activer/désactiver l'envoi et la réception de SMS par numéro.",
     "setDefault": "Définir comme numéro d'appelant par défaut",
     "setDefaultTip1": "* Lorsque vous passez un appel sortant à quelqu'un avec Duo Phone, il/elle verra un appel entrant provenant du numéro que vous avez défini comme numéro d'appelant.",
-    "setDefaultTip2": "* Un seul numéro peut être défini comme numéro d'appelant par défaut."
+    "setDefaultTip2": "* Un seul numéro peut être défini comme numéro d'appelant par défaut.",
+    "getNewNumberTip": "Pas de numéro de téléphone. Obtenez un numéro de téléphone pour passer des appels."
   },
   "callRates": {
     "title": "Tarifs des appels et des SMS",

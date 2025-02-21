@@ -35,7 +35,9 @@
     "callInProgress": "Cuộc gọi đang diễn ra"
   },
   "texts": {
-    "textsTabLabel": "Văn bản"
+    "textsTabLabel": "Văn bản",
+    "newTextsTitle": "Văn bản mới",
+    "noMoreChatData": "Không còn bản ghi trò chuyện nào nữa."
   },
   "task": {
     "dailyCheckIn": "Kiểm tra hàng ngày",
@@ -44,7 +46,9 @@
     "quickSpinXCredits": "Quay nhanh {} Điểm tín dụng",
     "surplus": "Thặng dư",
     "credits": "Tín dụng",
-    "clearedAtMidnight": "Đã xóa vào lúc nửa đêm"
+    "clearedAtMidnight": "Đã xóa vào lúc nửa đêm",
+    "luckyCreditsTitle": "Điểm tín dụng may mắn",
+    "dailyTasksTitle": "Nhiệm vụ hàng ngày"
   },
   "numbers": {
     "detailTitle": "Chi tiết số",
@@ -58,7 +62,8 @@
     "enableTextsTip": "Bật/Tắt tính năng gửi và nhận tin nhắn theo số.",
     "setDefault": "Đặt làm số người gọi mặc định",
     "setDefaultTip1": "* Khi bạn gọi điện cho ai đó bằng Duo Phone, người đó sẽ thấy cuộc gọi đến từ số mà bạn đặt làm Số người gọi.",
-    "setDefaultTip2": "* Chỉ có thể đặt một số làm Số người gọi mặc định."
+    "setDefaultTip2": "* Chỉ có thể đặt một số làm Số người gọi mặc định.",
+    "getNewNumberTip": "Không có số điện thoại. Hãy lấy số điện thoại để gọi điện."
   },
   "callRates": {
     "title": "Cước gọi và nhắn tin",

@@ -35,7 +35,9 @@
     "callInProgress": "通话正在进行中"
   },
   "texts": {
-    "textsTabLabel": "文本"
+    "textsTabLabel": "文本",
+    "newTextsTitle": "新文本",
+    "noMoreChatData": "沒有其他聊天記錄。"
   },
   "task": {
     "dailyCheckIn": "每日签到",
@@ -44,7 +46,9 @@
     "quickSpinXCredits": "快速旋转 {} 积分",
     "surplus": "剩余",
     "credits": "致谢",
-    "clearedAtMidnight": "午夜清除"
+    "clearedAtMidnight": "午夜清除",
+    "luckyCreditsTitle": "幸运积分",
+    "dailyTasksTitle": "日常任务"
   },
   "numbers": {
     "detailTitle": "号码详情",
@@ -58,7 +62,8 @@
     "enableTextsTip": "启用/禁用通过数字发送和接收文本。",
     "setDefault": "设置为默认来电号码",
     "setDefaultTip1": "* 当您通过 Duo Phone 向某人拨打电话时，他/她将看到来自您设置为来电号码的号码的来电。",
-    "setDefaultTip2": "* 只能将一个号码设置为默认呼叫者号码。"
+    "setDefaultTip2": "* 只能将一个号码设置为默认呼叫者号码。",
+    "getNewNumberTip": "没有电话号码。获取电话号码以拨打电话。"
   },
   "callRates": {
     "title": "通话和短信费率",

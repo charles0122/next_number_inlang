@@ -35,7 +35,9 @@
     "callInProgress": "Panggilan Sedang Berlangsung"
   },
   "texts": {
-    "textsTabLabel": "Teks"
+    "textsTabLabel": "Teks",
+    "newTextsTitle": "Teks Baru",
+    "noMoreChatData": "Tidak ada lagi rekaman obrolan."
   },
   "task": {
     "dailyCheckIn": "Pendaftaran harian",
@@ -44,7 +46,9 @@
     "quickSpinXCredits": "Putaran Cepat {} Kredit",
     "surplus": "Kelebihan",
     "credits": "Kredit",
-    "clearedAtMidnight": "Dibersihkan pada tengah malam"
+    "clearedAtMidnight": "Dibersihkan pada tengah malam",
+    "luckyCreditsTitle": "Kredit Beruntung",
+    "dailyTasksTitle": "Tugas Harian"
   },
   "numbers": {
     "detailTitle": "Rincian Nomor",
@@ -58,7 +62,8 @@
     "enableTextsTip": "Mengaktifkan/Menonaktifkan kirim dan terima Teks berdasarkan nomor.",
     "setDefault": "Tetapkan Sebagai Nomor Penelepon Default",
     "setDefaultTip1": "* Saat Anda melakukan panggilan keluar ke seseorang melalui Duo Phone, dia akan melihat panggilan masuk dari nomor yang Anda tetapkan sebagai Nomor Penelepon.",
-    "setDefaultTip2": "* Hanya satu nomor yang dapat ditetapkan sebagai Nomor Pemanggil Default."
+    "setDefaultTip2": "* Hanya satu nomor yang dapat ditetapkan sebagai Nomor Pemanggil Default.",
+    "getNewNumberTip": "Tidak Ada Nomor Telepon. Dapatkan Nomor Telepon untuk melakukan panggilan."
   },
   "callRates": {
     "title": "Tarif Panggilan &amp; SMS",

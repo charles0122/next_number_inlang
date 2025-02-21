@@ -35,7 +35,9 @@
     "callInProgress": "Call in Progress"
   },
   "texts": {
-    "textsTabLabel": "Texts"
+    "textsTabLabel": "Texts",
+    "newTextsTitle": "New Texts",
+    "noMoreChatData": "There are no more chat records."
   },
   "task": {
     "dailyCheckIn": "Daily check-in",
@@ -44,7 +46,9 @@
     "quickSpinXCredits": "Quick Spin {} Credits",
     "surplus": "Surplus",
     "credits": "Credits",
-    "clearedAtMidnight": "Cleared at midnight"
+    "clearedAtMidnight": "Cleared at midnight",
+    "luckyCreditsTitle": "Lucky Credits",
+    "dailyTasksTitle": "Daily Tasks"
   },
   "numbers": {
     "detailTitle": "Number Details",
@@ -58,7 +62,8 @@
     "enableTextsTip": "Enable/Disable send and receive Texts by the number.",
     "setDefault": "Set As Default Caller Number",
     "setDefaultTip1": "* When you making an out call to someone by Duo Phone, he/she will see an incoming call from the number which you set as Caller Number.",
-    "setDefaultTip2": "* Only one number could be set as DefaultCaller Number."
+    "setDefaultTip2": "* Only one number could be set as DefaultCaller Number.",
+    "getNewNumberTip": "No Phone Number. Get a Phone Number to make calls."
   },
   "callRates": {
     "title": "Call & Text Rates",
@@ -95,7 +100,7 @@
     "confirm": "Confirm",
     "cancel": "Cancel",
     "logOut": "Log Out",
-    "login": "Login",
+    "login": "Log in",
     "ok": "OK"
   },
   "datetime": {

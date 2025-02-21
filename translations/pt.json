@@ -35,7 +35,9 @@
     "callInProgress": "Chamada em andamento"
   },
   "texts": {
-    "textsTabLabel": "Textos"
+    "textsTabLabel": "Textos",
+    "newTextsTitle": "Novos Textos",
+    "noMoreChatData": "Não há mais registros de bate-papo."
   },
   "task": {
     "dailyCheckIn": "Check-in diário",
@@ -44,7 +46,9 @@
     "quickSpinXCredits": "Giro rápido {} Créditos",
     "surplus": "Excedente",
     "credits": "Créditos",
-    "clearedAtMidnight": "Desmarcado à meia-noite"
+    "clearedAtMidnight": "Desmarcado à meia-noite",
+    "luckyCreditsTitle": "Créditos da sorte",
+    "dailyTasksTitle": "Tarefas diárias"
   },
   "numbers": {
     "detailTitle": "Detalhes do número",
@@ -58,7 +62,8 @@
     "enableTextsTip": "Habilitar/Desabilitar envio e recebimento de mensagens de texto por número.",
     "setDefault": "Definir como número de chamada padrão",
     "setDefaultTip1": "* Ao fazer uma chamada para alguém pelo Duo Phone, a pessoa verá uma chamada recebida do número que você definiu como Número do Chamador.",
-    "setDefaultTip2": "* Somente um número pode ser definido como Número de Chamada Padrão."
+    "setDefaultTip2": "* Somente um número pode ser definido como Número de Chamada Padrão.",
+    "getNewNumberTip": "Sem número de telefone. Obtenha um número de telefone para fazer chamadas."
   },
   "callRates": {
     "title": "Tarifas de chamadas e mensagens de texto",

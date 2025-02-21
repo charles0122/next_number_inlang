@@ -35,7 +35,9 @@
     "callInProgress": "Llamada en progreso"
   },
   "texts": {
-    "textsTabLabel": "Textos"
+    "textsTabLabel": "Textos",
+    "newTextsTitle": "Nuevos textos",
+    "noMoreChatData": "No hay más registros de chat."
   },
   "task": {
     "dailyCheckIn": "Check-in diario",
@@ -44,7 +46,9 @@
     "quickSpinXCredits": "Giro rápido {} Créditos",
     "surplus": "Superávit",
     "credits": "Créditos",
-    "clearedAtMidnight": "Despejado a medianoche"
+    "clearedAtMidnight": "Despejado a medianoche",
+    "luckyCreditsTitle": "Créditos de la suerte",
+    "dailyTasksTitle": "Tareas diarias"
   },
   "numbers": {
     "detailTitle": "Detalles del número",
@@ -58,7 +62,8 @@
     "enableTextsTip": "Habilitar/Deshabilitar el envío y recepción de mensajes de texto por número.",
     "setDefault": "Establecer como número de llamada predeterminado",
     "setDefaultTip1": "* Cuando realiza una llamada saliente a alguien mediante Duo Phone, esa persona verá una llamada entrante del número que usted configure como número de llamada.",
-    "setDefaultTip2": "*Solo se puede configurar un número como número de llamada predeterminado."
+    "setDefaultTip2": "*Solo se puede configurar un número como número de llamada predeterminado.",
+    "getNewNumberTip": "Sin número de teléfono. Obtenga un número de teléfono para realizar llamadas."
   },
   "callRates": {
     "title": "Tarifas de llamadas y mensajes de texto",
